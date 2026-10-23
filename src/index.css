@@ -32,11 +32,14 @@ section.card:hover { box-shadow: 0 1px 2px rgba(15,42,74,.05), 0 18px 40px -18px
 .btn { display: inline-flex; align-items: center; gap: .5rem; height: 36px; padding: 0 .95rem; border-radius: 10px; font-weight: 500; font-size: 13px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); transition: background .2s, border-color .2s, transform .2s, box-shadow .2s, filter .2s; white-space: nowrap; }
 .btn:hover { border-color: color-mix(in srgb, var(--teal) 45%, var(--line)); background: var(--sunken); transform: translateY(-1px); box-shadow: 0 8px 18px -10px rgba(15,42,74,.35); }
 .btn:active { transform: translateY(0) scale(.98); box-shadow: none; }
-.btn:disabled { opacity: .5; cursor: not-allowed; transform: none; box-shadow: none; }
-.btn-primary { background: linear-gradient(135deg, var(--navy) 0%, #1B4F7E 55%, var(--teal) 130%); background-size: 160% 100%; border-color: transparent; color: #fff; }
-.btn-primary:hover { background-position: 100% 0; border-color: transparent; box-shadow: 0 10px 24px -10px rgba(14,159,142,.7); }
-.btn-teal { background: linear-gradient(135deg, var(--teal), #17B8A6); border-color: transparent; color: #fff; }
-.btn-teal:hover { filter: brightness(1.06); background: linear-gradient(135deg, var(--teal), #17B8A6); box-shadow: 0 10px 24px -10px rgba(14,159,142,.8); }
+.btn-primary, .btn-primary:hover { background: linear-gradient(135deg, var(--navy) 0%, #1B4F7E 55%, var(--teal) 130%); background-size: 160% 100%; border-color: transparent; color: #fff; }
+.btn-primary:hover { background-position: 100% 0; box-shadow: 0 10px 24px -10px rgba(14,159,142,.7); }
+.btn-teal, .btn-teal:hover { background: linear-gradient(135deg, var(--teal), #17B8A6); border-color: transparent; color: #fff; }
+.btn-teal:hover { filter: brightness(1.06); box-shadow: 0 10px 24px -10px rgba(14,159,142,.8); }
+/* disabled must stay readable and calm: keep the button's own colours, just dim it, and kill every hover effect */
+.btn:disabled, .btn:disabled:hover { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; filter: none; }
+.btn-primary:disabled, .btn-primary:disabled:hover { background: linear-gradient(135deg, var(--navy) 0%, #1B4F7E 55%, var(--teal) 130%); background-position: 0 0; color: #fff; border-color: transparent; }
+.btn-teal:disabled, .btn-teal:disabled:hover { background: linear-gradient(135deg, var(--teal), #17B8A6); color: #fff; border-color: transparent; }
 .btn-ghost { background: transparent; border-color: transparent; }
 .btn-sm { height: 30px; padding: 0 .7rem; font-size: 12px; border-radius: 9px; }
 .input { height: 36px; padding: 0 .75rem; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-size: 13px; transition: border-color .2s, box-shadow .2s; }
