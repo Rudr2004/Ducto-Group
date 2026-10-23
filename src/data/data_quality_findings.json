@@ -1,0 +1,427 @@
+[
+ {
+  "package": "MEP Services",
+  "type": "out_of_sequence",
+  "detail": "dtp_received=2026-10-10 after uploaded_to_obt=2026-01-01"
+ },
+ {
+  "package": "MEP Services",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 3 of 15 actual dates"
+ },
+ {
+  "package": "Substructure Waterproofing (1)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Substructure Waterproofing (1)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Al Nahda vs comment='Awarded with TWIC'"
+ },
+ {
+  "package": "Substructure Waterproofing (2)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Substructure Waterproofing (2)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Twic vs comment='Awarded with Al Nahda'"
+ },
+ {
+  "package": "Facade (1)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Eastern vs comment='Awarded with Al Qassim'"
+ },
+ {
+  "package": "Facade (2)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Al Qassim vs comment='Awarded with Eastern'"
+ },
+ {
+  "package": "Earthworks (1)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Light Fittings",
+  "type": "out_of_sequence",
+  "detail": "ptc_closed=2026-07-20 after lafo_proposal_received=2026-07-10"
+ },
+ {
+  "package": "Precast",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Masonry Labour (1)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Concrete Supply - #2",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Concrete Supply - #3",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Masonry materials Supply (1)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "RCS Labour - #1",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 3 of 15 actual dates"
+ },
+ {
+  "package": "RCS Labour - #2",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Precast (Manholes)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Scaffolding Hire",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Scaffolding Hire",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Kitchen (Mixer) (1)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 1 of 15 actual dates"
+ },
+ {
+  "package": "Kitchen (Mixer) (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Stonework (1)",
+  "type": "out_of_sequence",
+  "detail": "tq_process=2026-01-10 after tqs_closed=2025-01-11"
+ },
+ {
+  "package": "Stonework (2)",
+  "type": "out_of_sequence",
+  "detail": "tq_process=2026-01-10 after tqs_closed=2025-01-11"
+ },
+ {
+  "package": "Kitchen Top & Vanity Counter Top Works",
+  "type": "out_of_sequence",
+  "detail": "tq_process=2026-01-10 after tqs_closed=2025-01-11"
+ },
+ {
+  "package": "Carpentry (Supply)",
+  "type": "out_of_sequence",
+  "detail": "ptc_closed=2026-08-06 after lafo_proposal_received=2026-08-05"
+ },
+ {
+  "package": "Kitchen Cabinets & Wardrobes",
+  "type": "out_of_sequence",
+  "detail": "tq_process=2026-01-10 after tqs_closed=2025-01-11"
+ },
+ {
+  "package": "Cement Plaster (1)",
+  "type": "out_of_sequence",
+  "detail": "initial_bid_tab=2026-07-28 after ptc_process=2026-05-20"
+ },
+ {
+  "package": "Cement Plaster (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "EIFS (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "External Cladding (SFS) (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Plasterboard Ceilings & Partitions (1)",
+  "type": "out_of_sequence",
+  "detail": "final_bid_tab=2026-08-06 after trf_created=2026-07-10"
+ },
+ {
+  "package": "Plasterboard Ceilings & Partitions (2)",
+  "type": "out_of_sequence",
+  "detail": "final_bid_tab=2026-08-06 after trf_created=2026-07-10"
+ },
+ {
+  "package": "Painting (3)",
+  "type": "out_of_sequence",
+  "detail": "initial_bid_tab=2026-05-27 after ptc_process=2026-03-10"
+ },
+ {
+  "package": "Stone Cladding Supply (Porcelain)",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Door Hardware",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Metal Doors",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 5 of 15 actual dates"
+ },
+ {
+  "package": "Kitchen Equipment",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Stone Cladding (Porcelain) (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Stone Cladding (Porcelain) (2)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Stone Cladding (Porcelain) (2)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Graniti vs comment='waiting for the final discounted quotations'"
+ },
+ {
+  "package": "Tiling (Supply)",
+  "type": "out_of_sequence",
+  "detail": "float_rfps=2026-01-21 after tq_process=2026-01-20"
+ },
+ {
+  "package": "Fireproofing (1)",
+  "type": "out_of_sequence",
+  "detail": "initial_bid_tab=2026-10-12 after ptc_process=2026-09-12"
+ },
+ {
+  "package": "Fireproofing (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Hard Landscape (1)",
+  "type": "out_of_sequence",
+  "detail": "ptc_closed=2026-07-28 after lafo_proposal_received=2025-07-31"
+ },
+ {
+  "package": "Topping Screeds (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Tiling Labour (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Tiling Labour (2)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Tiling Labour (3)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Tiling Labour (4)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Signage",
+  "type": "out_of_sequence",
+  "detail": "ptc_closed=2026-06-15 after lafo_proposal_received=2026-06-10"
+ },
+ {
+  "package": "GRP Linings",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Civil Works in MEP (1)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Civil Works in MEP (2)",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Supply of Porcelain cladding",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Aluminium Doors",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Aluminium Doors",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Aluminium Doors",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Al Qassim vs comment='Awarded with Eastern'"
+ },
+ {
+  "package": "Precast Boundary Wall",
+  "type": "awarded_with_missing_actuals",
+  "detail": "only 2 of 15 actual dates"
+ },
+ {
+  "package": "Stone Works (3)",
+  "type": "out_of_sequence",
+  "detail": "tq_process=2026-01-10 after tqs_closed=2025-01-11"
+ },
+ {
+  "package": "Stone Works (3)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Stonetta vs comment='Awarded with Al Shafar'"
+ },
+ {
+  "package": "Stone works (4)",
+  "type": "out_of_sequence",
+  "detail": "tq_process=2026-01-10 after tqs_closed=2025-01-11"
+ },
+ {
+  "package": "Stone works (4)",
+  "type": "comment_vendor_mismatch",
+  "detail": "strategy awarded=Al Shafar vs comment='Awarded with Stonetta'"
+ },
+ {
+  "package": "Supply & Installation of Roof Access Hatch",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "Supply & Installation of Mirror",
+  "type": "no_named_owner",
+  "detail": "SITE TEAM"
+ },
+ {
+  "package": "D0501",
+  "type": "shared_reference_code",
+  "detail": "Substructure Waterproofing (1), Substructure Waterproofing (2)"
+ },
+ {
+  "package": "D0729",
+  "type": "shared_reference_code",
+  "detail": "Facade (1), Facade (2)"
+ },
+ {
+  "package": "F0129",
+  "type": "shared_reference_code",
+  "detail": "Sanitaryware (1), Sanitaryware (2)"
+ },
+ {
+  "package": "D0101",
+  "type": "shared_reference_code",
+  "detail": "Precast, Precast (Manholes), Precast Boundary Wall"
+ },
+ {
+  "package": "C0101",
+  "type": "shared_reference_code",
+  "detail": "Concrete Supply - #1, Concrete Supply - #2, Concrete Supply - #3"
+ },
+ {
+  "package": "E0606",
+  "type": "shared_reference_code",
+  "detail": "Kitchen (Mixer) (1), Kitchen Cabinets & Wardrobes"
+ },
+ {
+  "package": "E0506",
+  "type": "shared_reference_code",
+  "detail": "Stonework (1), Stonework (2)"
+ },
+ {
+  "package": "E0201",
+  "type": "shared_reference_code",
+  "detail": "Carpentry (Supply), Carpentry (Install)"
+ },
+ {
+  "package": "D0510",
+  "type": "shared_reference_code",
+  "detail": "Superstructure Waterproofing (1), Superstructure Waterproofing (2)"
+ },
+ {
+  "package": "E0401",
+  "type": "shared_reference_code",
+  "detail": "Plasterboard Ceilings & Partitions (1), Plasterboard Ceilings & Partitions (2)"
+ },
+ {
+  "package": "E0801",
+  "type": "shared_reference_code",
+  "detail": "Painting (1), Painting (2), Painting (3)"
+ },
+ {
+  "package": "E0101",
+  "type": "shared_reference_code",
+  "detail": "Miscellaneous Metalwork (1), Miscellaneous Metalwork (2), Supply & Installation of Roof Access Hatch"
+ },
+ {
+  "package": "D0905",
+  "type": "shared_reference_code",
+  "detail": "Stone Cladding (Porcelain) (1), Stone Cladding (Porcelain) (2)"
+ },
+ {
+  "package": "D0601",
+  "type": "shared_reference_code",
+  "detail": "Topping Screeds (1), Architectural Screeds (2)"
+ },
+ {
+  "package": "E0911",
+  "type": "shared_reference_code",
+  "detail": "Shower Screens (1), Shower Screens (2)"
+ },
+ {
+  "package": "E0517",
+  "type": "shared_reference_code",
+  "detail": "Tiling Labour (1), Tiling Labour (2), Tiling Labour (3), Tiling Labour (4)"
+ },
+ {
+  "package": "F0305",
+  "type": "shared_reference_code",
+  "detail": "Civil Works in MEP (1), Civil Works in MEP (2)"
+ },
+ {
+  "package": "E0207",
+  "type": "shared_reference_code",
+  "detail": "Aluminium Doors, Aluminium Doors"
+ },
+ {
+  "package": "D0901",
+  "type": "shared_reference_code",
+  "detail": "Stone Works (3), Stone works (4)"
+ },
+ {
+  "package": "*",
+  "type": "owner_name_variants",
+  "detail": "{'BASHEER': 6, 'VAIBHAV': 7, 'MANI': 33, 'MUFFADAL': 4, 'MUFADDAL': 3, 'SITE TEAM': 21}"
+ }
+]

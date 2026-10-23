@@ -1,0 +1,7587 @@
+{
+ "project": {
+  "name": "Sample Project (name withheld)",
+  "division": "DCC",
+  "reporting_week_ending": "2026-06-05",
+  "source_file": "Sample_Project_Doc.xlsm"
+ },
+ "milestone_definitions": [
+  {
+   "col": "J",
+   "code": "A4",
+   "name": "DTP Received",
+   "status_label": "DTP Received",
+   "stage": "A: Post-Award Strategy Stage",
+   "key": "dtp_received"
+  },
+  {
+   "col": "L",
+   "code": "A5",
+   "name": "STP Created",
+   "status_label": "DTP Received",
+   "stage": "A: Post-Award Strategy Stage",
+   "key": "stp_created"
+  },
+  {
+   "col": "N",
+   "code": "A6",
+   "name": "Provide Link to STP",
+   "status_label": "DTP Received",
+   "stage": "A: Post-Award Strategy Stage",
+   "key": "provide_link_to_stp"
+  },
+  {
+   "col": "P",
+   "code": "B1",
+   "name": "Float RFPs",
+   "status_label": "Out To Tender",
+   "stage": "B: Tender Stage",
+   "key": "float_rfps"
+  },
+  {
+   "col": "R",
+   "code": "B2",
+   "name": "TQ Process",
+   "status_label": "Out To Tender",
+   "stage": "B: Tender Stage",
+   "key": "tq_process"
+  },
+  {
+   "col": "T",
+   "code": "B3",
+   "name": "TQs Closed",
+   "status_label": "Out To Tender",
+   "stage": "B: Tender Stage",
+   "key": "tqs_closed"
+  },
+  {
+   "col": "V",
+   "code": "B5",
+   "name": "Initial Proposals Received",
+   "status_label": "Commercial Review",
+   "stage": "B: Tender Stage",
+   "key": "initial_proposals_received"
+  },
+  {
+   "col": "X",
+   "code": "C1",
+   "name": "Initial Bid Tab",
+   "status_label": "Commercial Review",
+   "stage": "C: Tender Review Stage",
+   "key": "initial_bid_tab"
+  },
+  {
+   "col": "Z",
+   "code": "C2",
+   "name": "PTC Process",
+   "status_label": "PTC Stage",
+   "stage": "C: Tender Review Stage",
+   "key": "ptc_process"
+  },
+  {
+   "col": "AB",
+   "code": "C3",
+   "name": "PTC Closed",
+   "status_label": "PTC Stage",
+   "stage": "C: Tender Review Stage",
+   "key": "ptc_closed"
+  },
+  {
+   "col": "AD",
+   "code": "C5",
+   "name": "LAFO Proposal Received",
+   "status_label": "Final Negotiations",
+   "stage": "C: Tender Review Stage",
+   "key": "lafo_proposal_received"
+  },
+  {
+   "col": "AF",
+   "code": "C6",
+   "name": "Final Bid Tab",
+   "status_label": "Final Negotiations",
+   "stage": "C: Tender Review Stage",
+   "key": "final_bid_tab"
+  },
+  {
+   "col": "AH",
+   "code": "C7",
+   "name": "TRF Created",
+   "status_label": "Final Negotiations",
+   "stage": "C: Tender Review Stage",
+   "key": "trf_created"
+  },
+  {
+   "col": "AJ",
+   "code": "C8",
+   "name": "Uploaded to OBT",
+   "status_label": "OBT Ongoing",
+   "stage": "C: Tender Review Stage",
+   "key": "uploaded_to_obt"
+  },
+  {
+   "col": "AM",
+   "code": "D1",
+   "name": "LPO/ LOA/ SOA Issue Date",
+   "status_label": "Awarded",
+   "stage": "D: Award Stage",
+   "key": "award_issued"
+  }
+ ],
+ "packages": [
+  {
+   "sl_no": 1,
+   "category": "Subcontractor",
+   "work_package": "MEP Services",
+   "standard_ref": "F0101",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "BASHEER",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "DTP Received",
+   "date_of_last_action": "2026-10-10",
+   "comments": "Awarded with Dutco MEP",
+   "sheet_rows": {
+    "planned": 12,
+    "actual": 13
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-10-06",
+     "actual": "2026-10-10",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-10-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-10-09",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-10-09",
+     "actual": null,
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2025-10-23",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2025-11-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2025-11-15",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-11-25",
+     "actual": "2026-01-01",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-11-30",
+     "actual": "2026-01-01",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 2,
+   "category": "Subcontractor",
+   "work_package": "Temporary Electrics",
+   "standard_ref": "A1406",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "BASHEER",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-01-02",
+   "comments": "Awarded with Dutco MEP",
+   "sheet_rows": {
+    "planned": 14,
+    "actual": 15
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-11-21",
+     "actual": "2025-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-11-23",
+     "actual": "2025-01-26",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-11-24",
+     "actual": "2025-01-26",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-11-24",
+     "actual": "2025-01-26",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-12-04",
+     "actual": "2025-01-27",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-12-09",
+     "actual": "2025-02-02",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-12-10",
+     "actual": "2025-02-03",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-12-13",
+     "actual": "2025-02-03",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-12-15",
+     "actual": "2025-02-03",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-12-18",
+     "actual": "2025-02-03",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-12-21",
+     "actual": "2025-02-04",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-12-22",
+     "actual": "2025-02-04",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-12-24",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-12-26",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-12-31",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 3,
+   "category": "Subcontractor",
+   "work_package": "Substructure Waterproofing (1)",
+   "standard_ref": "D0501",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 15202,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-14",
+   "comments": "Awarded with TWIC",
+   "sheet_rows": {
+    "planned": 16,
+    "actual": 17
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-05",
+     "actual": "2025-12-22",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-07",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-11-18",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-29",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-15",
+     "actual": "2026-04-14",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 12520700,
+   "awarded_cost_aed": 13314968,
+   "bidders": [
+    {
+     "vendor": "Al Nahda",
+     "initial_proposal": 13314968,
+     "initial_rank": 1,
+     "bafo": 13314968,
+     "lafo": 13314968,
+     "awarded": true
+    },
+    {
+     "vendor": "Al Shirawi",
+     "initial_proposal": 16204500,
+     "initial_rank": 2,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    }
+   ]
+  },
+  {
+   "sl_no": 4,
+   "category": "Subcontractor",
+   "work_package": "Substructure Waterproofing (2)",
+   "standard_ref": "D0501",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 15191,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-14",
+   "comments": "Awarded with Al Nahda",
+   "sheet_rows": {
+    "planned": 18,
+    "actual": 19
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-05",
+     "actual": "2025-12-22",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-07",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-11-18",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-29",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-15",
+     "actual": "2026-04-14",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 7102199.3,
+   "awarded_cost_aed": 5614191,
+   "bidders": [
+    {
+     "vendor": "Twic",
+     "initial_proposal": 5614191,
+     "initial_rank": 1,
+     "bafo": 5614191,
+     "lafo": 5614191,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 5,
+   "category": "Subcontractor",
+   "work_package": "Facade (1)",
+   "standard_ref": "D0729",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15008,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Awarded with Al Qassim",
+   "sheet_rows": {
+    "planned": 20,
+    "actual": 21
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-07",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-09",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-10",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-10",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2025-11-24",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2025-12-04",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-05",
+     "actual": "2026-01-07",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-08",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-10",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2025-12-15",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-30",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 26804389,
+   "awarded_cost_aed": 25154797,
+   "bidders": [
+    {
+     "vendor": "Al Qassim",
+     "initial_proposal": 24721132,
+     "initial_rank": 1,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    },
+    {
+     "vendor": "Eastern",
+     "initial_proposal": 25154797,
+     "initial_rank": 2,
+     "bafo": 25154797,
+     "lafo": 25154797,
+     "awarded": true
+    },
+    {
+     "vendor": "Ashbilia",
+     "initial_proposal": 32273269,
+     "initial_rank": 3,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    },
+    {
+     "vendor": "Ineventure",
+     "initial_proposal": 37989062,
+     "initial_rank": 4,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    }
+   ]
+  },
+  {
+   "sl_no": 6,
+   "category": "Subcontractor",
+   "work_package": "Facade (2)",
+   "standard_ref": "D0729",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": "15004",
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Awarded with Eastern",
+   "sheet_rows": {
+    "planned": 22,
+    "actual": 23
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-07",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-09",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-10",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-10",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2025-11-24",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2025-12-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-05",
+     "actual": "2026-01-07",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-08",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-10",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2025-12-15",
+     "actual": "2026-02-16",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-30",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 37080605,
+   "awarded_cost_aed": 34399021,
+   "bidders": [
+    {
+     "vendor": "Al Qassim",
+     "initial_proposal": 34399021,
+     "initial_rank": 1,
+     "bafo": 34399021,
+     "lafo": 34399021,
+     "awarded": true
+    },
+    {
+     "vendor": "Eastern",
+     "initial_proposal": 35105035,
+     "initial_rank": 2,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    },
+    {
+     "vendor": "Ashbilia",
+     "initial_proposal": 44436312,
+     "initial_rank": 4,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    },
+    {
+     "vendor": "Ineventure",
+     "initial_proposal": 53151238,
+     "initial_rank": 5,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    },
+    {
+     "vendor": "National",
+     "initial_proposal": 40660506,
+     "initial_rank": 3,
+     "bafo": null,
+     "lafo": null,
+     "awarded": false
+    }
+   ]
+  },
+  {
+   "sl_no": 7,
+   "category": "Subcontractor",
+   "work_package": "Lifts",
+   "standard_ref": "F0201",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "BASHEER",
+   "date_added": "2025-12-31",
+   "obt_ref": 14960,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-03-15",
+   "comments": "Awarded with Kone",
+   "sheet_rows": {
+    "planned": 24,
+    "actual": 25
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-16",
+     "actual": "2025-12-18",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-18",
+     "actual": "2025-12-22",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-19",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-19",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 21
+    },
+    "tq_process": {
+     "planned": "2025-12-10",
+     "actual": "2025-12-30",
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2025-12-20",
+     "actual": "2026-01-12",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-21",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-26",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2025-12-31",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-01-15",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-06",
+     "actual": "2026-01-18",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-15",
+     "actual": "2026-03-15",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 30282807.93,
+   "awarded_cost_aed": 20211651,
+   "bidders": [
+    {
+     "vendor": "Kone",
+     "initial_proposal": 20211651,
+     "initial_rank": 1,
+     "bafo": 20211651,
+     "lafo": 20211651,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 8,
+   "category": "Subcontractor",
+   "work_package": "Earthworks (1)",
+   "standard_ref": "B0301",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 14607,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-03-05",
+   "comments": "Awarded with Fala Contracting",
+   "sheet_rows": {
+    "planned": 26,
+    "actual": 27
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-10-31",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "tq_process": {
+     "planned": "2025-11-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-15",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-16",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-19",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-21",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-03-05",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 12757239.88,
+   "awarded_cost_aed": 12000000,
+   "bidders": [
+    {
+     "vendor": "Fala Building",
+     "initial_proposal": 12000000,
+     "initial_rank": 1,
+     "bafo": 12000000,
+     "lafo": 12000000,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 10,
+   "category": "Supply",
+   "work_package": "Light Fittings",
+   "standard_ref": "F0130",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "BASHEER",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-08-24",
+   "comments": "LPO Under Process",
+   "sheet_rows": {
+    "planned": 28,
+    "actual": 29
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": "2026-02-05",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": "2026-02-05",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-03-15",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": "2026-04-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": "2026-07-20",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": "2026-07-15",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": "2026-08-03",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-08-24",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 11,
+   "category": "Supply",
+   "work_package": "Sanitaryware (1)",
+   "standard_ref": "F0129",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "BASHEER",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-07-15",
+   "comments": "Awarded with Al Futtaim",
+   "sheet_rows": {
+    "planned": 30,
+    "actual": 31
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": "2026-02-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-07-15",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 12,
+   "category": "Supply",
+   "work_package": "Sanitaryware (2)",
+   "standard_ref": "F0129",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "BASHEER",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-01",
+   "comments": "Awarded with  German Home",
+   "sheet_rows": {
+    "planned": 32,
+    "actual": 33
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-06-01",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 13,
+   "category": "Supply",
+   "work_package": "Precast",
+   "standard_ref": "D0101",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 15352,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-23",
+   "comments": "Awarded with Gulf Precast.",
+   "sheet_rows": {
+    "planned": 34,
+    "actual": 35
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-10-21",
+     "actual": "2025-12-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-10-23",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-10-24",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-10-24",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-09",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-11-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-11-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-11-30",
+     "actual": "2026-04-23",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 147541597.74,
+   "awarded_cost_aed": 155390000,
+   "bidders": [
+    {
+     "vendor": "Gulf Precast",
+     "initial_proposal": 155390000,
+     "initial_rank": 1,
+     "bafo": 155390000,
+     "lafo": 155390000,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 14,
+   "category": "Subcontractor",
+   "work_package": "Anti-Termite",
+   "standard_ref": "B0309",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 13245,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-01-02",
+   "comments": "Awarded to Wipe Out.",
+   "sheet_rows": {
+    "planned": 36,
+    "actual": 37
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-07",
+     "actual": "2025-11-05",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-09",
+     "actual": "2025-11-05",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-10",
+     "actual": "2025-11-05",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-10",
+     "actual": "2025-11-05",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-11-15",
+     "actual": "2025-11-06",
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-11-17",
+     "actual": "2025-11-06",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-18",
+     "actual": "2025-11-06",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-21",
+     "actual": "2025-12-23",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-23",
+     "actual": "2025-12-23",
+     "sla_days_to_next": 2
+    },
+    "ptc_closed": {
+     "planned": "2025-11-25",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": "2025-12-25",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": "2025-12-26",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 332557.34,
+   "awarded_cost_aed": 193612.15,
+   "bidders": [
+    {
+     "vendor": "Wipe Out",
+     "initial_proposal": 193612.15,
+     "initial_rank": 1,
+     "bafo": 193612.15,
+     "lafo": 193612.15,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 15,
+   "category": "Subcontractor",
+   "work_package": "Structural Steel",
+   "standard_ref": "D0201",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Part of Aluminium Package ( 5 & 6 )",
+   "sheet_rows": {
+    "planned": 38,
+    "actual": 39
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-20",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-22",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-23",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-23",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2026-04-06",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2026-04-16",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-17",
+     "actual": "2026-01-07",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-20",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-22",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2026-04-27",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-05-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-05-03",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-05-05",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-05-07",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-05-12",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 16,
+   "category": "Subcontractor",
+   "work_package": "Masonry Labour (1)",
+   "standard_ref": "D0411",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MUFFADAL",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-01",
+   "comments": "As discussed and agreed in the Meeting on 01/06/2026 all RCC works including Substructure to be Carried out by Structural Division. \nNo further action from procurement",
+   "sheet_rows": {
+    "planned": 40,
+    "actual": 41
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-05",
+     "actual": "2026-04-24",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-07",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-08",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-11-18",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-29",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-15",
+     "actual": "2026-06-01",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 19,
+   "category": "Supply",
+   "work_package": "Concrete Supply - #1",
+   "standard_ref": "C0101",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MUFFADAL",
+   "date_added": "2025-12-31",
+   "obt_ref": 13413,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-02-09",
+   "comments": "Awarded with RMB.",
+   "sheet_rows": {
+    "planned": 42,
+    "actual": 43
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-09",
+     "actual": "2025-12-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-11",
+     "actual": "2025-12-18",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-12",
+     "actual": "2025-12-18",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-12",
+     "actual": "2025-12-18",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-11-17",
+     "actual": "2025-12-19",
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-11-19",
+     "actual": "2025-12-20",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-20",
+     "actual": "2025-12-26",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-23",
+     "actual": "2025-12-27",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-25",
+     "actual": "2025-12-29",
+     "sla_days_to_next": 0
+    },
+    "ptc_closed": {
+     "planned": "2025-11-25",
+     "actual": "2025-12-30",
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": "2025-12-31",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 5886509.56,
+   "awarded_cost_aed": 5717389.32,
+   "bidders": [
+    {
+     "vendor": "RMB",
+     "initial_proposal": 5717389.32,
+     "initial_rank": 1,
+     "bafo": 5717389.32,
+     "lafo": 5717389.32,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 20,
+   "category": "Supply",
+   "work_package": "Concrete Supply - #2",
+   "standard_ref": "C0101",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MUFFADAL",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-02-09",
+   "comments": "Awarded with Green Concrete.",
+   "sheet_rows": {
+    "planned": 44,
+    "actual": 45
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-09",
+     "actual": "2025-12-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-11",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-11-17",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-11-19",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-20",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-25",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "ptc_closed": {
+     "planned": "2025-11-25",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 4706238.44,
+   "awarded_cost_aed": 4706238.44,
+   "bidders": [
+    {
+     "vendor": "Green Concrete",
+     "initial_proposal": 4706238.44,
+     "initial_rank": 1,
+     "bafo": 4706238.44,
+     "lafo": 4706238.44,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 21,
+   "category": "Supply",
+   "work_package": "Concrete Supply - #3",
+   "standard_ref": "C0101",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MUFFADAL",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-02-09",
+   "comments": "Awarded with Cemex.",
+   "sheet_rows": {
+    "planned": 46,
+    "actual": 47
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-09",
+     "actual": "2025-12-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-11",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-11-17",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-11-19",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-20",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-25",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "ptc_closed": {
+     "planned": "2025-11-25",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 4703149.77,
+   "awarded_cost_aed": 4703149.77,
+   "bidders": [
+    {
+     "vendor": "Cemex Topmix LLC",
+     "initial_proposal": 4703149.77,
+     "initial_rank": 1,
+     "bafo": 4703149.77,
+     "lafo": 4703149.77,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 23,
+   "category": "Supply",
+   "work_package": "Reinforcement (1)",
+   "standard_ref": "C0301",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 13246,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-01-05",
+   "comments": "Awarded to Steel Middle East (Conares)",
+   "sheet_rows": {
+    "planned": 48,
+    "actual": 49
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-09",
+     "actual": "2025-11-24",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-11",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-11-17",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-11-19",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-20",
+     "actual": "2025-11-24",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-23",
+     "actual": "2025-11-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-25",
+     "actual": "2025-11-26",
+     "sla_days_to_next": 0
+    },
+    "ptc_closed": {
+     "planned": "2025-11-25",
+     "actual": "2025-11-27",
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": "2025-11-28",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": "2025-12-25",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": "2025-12-25",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": "2025-12-26",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 16660000,
+   "awarded_cost_aed": 16205000,
+   "bidders": [
+    {
+     "vendor": "Steel Middle (Conaras)",
+     "initial_proposal": 16205000,
+     "initial_rank": 1,
+     "bafo": 16205000,
+     "lafo": 16205000,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 25,
+   "category": "Supply",
+   "work_package": "Masonry materials Supply (1)",
+   "standard_ref": "D0406",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MUFADDAL",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-01",
+   "comments": "As discussed and agreed today in the Meeting all RCC works including Substructure to be Carried out by Structural Division. \nNo further action from procurement.",
+   "sheet_rows": {
+    "planned": 50,
+    "actual": 51
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-19",
+     "actual": "2025-11-06",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-21",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-22",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-22",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "tq_process": {
+     "planned": "2025-11-25",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-01",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-03",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "ptc_closed": {
+     "planned": "2025-12-03",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-15",
+     "actual": "2026-06-01",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 27,
+   "category": "Subcontractor",
+   "work_package": "RCS Labour - #1",
+   "standard_ref": "C0501",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "VAIBHAV",
+   "date_added": "2025-12-31",
+   "obt_ref": 17897,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-09-29",
+   "comments": "Awarded with AQC.",
+   "sheet_rows": {
+    "planned": 52,
+    "actual": 53
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-10-31",
+     "actual": "2025-12-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "tq_process": {
+     "planned": "2025-11-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-15",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-16",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-19",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-21",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": "2026-09-19",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-09-29",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 28,
+   "category": "Subcontractor",
+   "work_package": "RCS Labour - #2",
+   "standard_ref": "C0502",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MUFADDAL",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-01",
+   "comments": "As discussed and agreed today in the Meeting all RCC works including Substructure to be Carried out by Structural Division. \nNo further action from procurement",
+   "sheet_rows": {
+    "planned": 54,
+    "actual": 55
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-10-31",
+     "actual": "2025-12-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-03",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "tq_process": {
+     "planned": "2025-11-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-15",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-16",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-19",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-21",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-06-01",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 29,
+   "category": "Supply",
+   "work_package": "Precast (Manholes)",
+   "standard_ref": "D0101",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-07-15",
+   "comments": "OBT Under Approval  ( AMPS )",
+   "sheet_rows": {
+    "planned": 56,
+    "actual": 57
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-21",
+     "actual": "2026-04-14",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-23",
+     "actual": "2026-04-14",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-24",
+     "actual": "2026-04-14",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-24",
+     "actual": "2026-04-14",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-09",
+     "actual": "2026-06-10",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-12",
+     "actual": "2026-06-15",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-14",
+     "actual": "2026-06-18",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": "2026-06-19",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": "2026-06-29",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": "2026-07-01",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": "2026-07-15",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-07-15",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 30,
+   "category": "Subcontractor",
+   "work_package": "Scaffolding Hire",
+   "standard_ref": "A2006",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-03-09",
+   "comments": "Site team needs to coordinate with DBB Scaffolding",
+   "sheet_rows": {
+    "planned": 58,
+    "actual": 59
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-10-29",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-10-31",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-01",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-01",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-11-06",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-11-11",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-11-12",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-11-15",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-11-17",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2025-11-24",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-11-27",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-11-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-11-30",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-02",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-07",
+     "actual": "2026-03-09",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 32,
+   "category": "Supply",
+   "work_package": "Kitchen (Mixer) (1)",
+   "standard_ref": "E0606",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-09-16",
+   "comments": "Order Will be Processed This week",
+   "sheet_rows": {
+    "planned": 60,
+    "actual": 61
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-09-16",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 34,
+   "category": "Subcontractor",
+   "work_package": "Stonework (1)",
+   "standard_ref": "E0506",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15384,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-05-01",
+   "comments": "Awarded with Imada",
+   "sheet_rows": {
+    "planned": 62,
+    "actual": 63
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-06",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": "2025-01-11",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-01-12",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-01-18",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-05-01",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 17465568.51,
+   "awarded_cost_aed": 16329223.63,
+   "bidders": [
+    {
+     "vendor": "Imada",
+     "initial_proposal": 16329223.63,
+     "initial_rank": 1,
+     "bafo": 16329223.63,
+     "lafo": 16329223.63,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 35,
+   "category": "Subcontractor",
+   "work_package": "Stonework (2)",
+   "standard_ref": "E0506",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15873,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-05-20",
+   "comments": "Awarded with Marbeya",
+   "sheet_rows": {
+    "planned": 64,
+    "actual": 65
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-06",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": "2025-01-11",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-01-12",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-01-18",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 18488309.15,
+   "awarded_cost_aed": 17645603.72,
+   "bidders": [
+    {
+     "vendor": "Marbeya",
+     "initial_proposal": 17645603.72,
+     "initial_rank": 1,
+     "bafo": 17645603.72,
+     "lafo": 17645603.72,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 36,
+   "category": "Subcontractor",
+   "work_package": "Kitchen Top & Vanity Counter Top Works",
+   "standard_ref": "E0511",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Final Negotiations",
+   "date_of_last_action": "2026-08-28",
+   "comments": "TRF Process",
+   "sheet_rows": {
+    "planned": 66,
+    "actual": 67
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": "2025-01-11",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-02-05",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-08-28",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 38,
+   "category": "Subcontractor",
+   "work_package": "Carpentry (Supply)",
+   "standard_ref": "E0201",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-08-06",
+   "comments": "TRF Process",
+   "sheet_rows": {
+    "planned": 68,
+    "actual": 69
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-02-25",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-03-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": "2026-08-05",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": "2026-08-06",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": "2026-08-05",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-08-05",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 39,
+   "category": "Subcontractor",
+   "work_package": "Carpentry (Install)",
+   "standard_ref": "E0201",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-08-10",
+   "comments": "Site team to discuss Joint Matrix/PTCs with DIJ",
+   "sheet_rows": {
+    "planned": 70,
+    "actual": 71
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-02-25",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-03-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": "2026-08-10",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 40,
+   "category": "Subcontractor",
+   "work_package": "Kitchen Cabinets & Wardrobes",
+   "standard_ref": "E0606",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 17975,
+   "status_in_sheet": "OBT Ongoing",
+   "date_of_last_action": "2026-09-23",
+   "comments": "Uploaded to OBT",
+   "sheet_rows": {
+    "planned": 72,
+    "actual": 73
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-07",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-09",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-10",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-10",
+     "actual": "2026-01-05",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-15",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-12-20",
+     "actual": "2025-01-11",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-21",
+     "actual": "2026-01-22",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-24",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-26",
+     "actual": "2026-08-04",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-02",
+     "actual": "2026-08-17",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-08",
+     "actual": "2026-09-02",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-10",
+     "actual": "2026-09-23",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 41,
+   "category": "Subcontractor",
+   "work_package": "Superstructure Waterproofing (1)",
+   "standard_ref": "D0510",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 16762,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-07-29",
+   "comments": "Awarded with MRG",
+   "sheet_rows": {
+    "planned": 74,
+    "actual": 75
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-12",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": "2026-03-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": "2026-06-05",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": "2026-06-08",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": "2026-06-09",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": "2026-07-14",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-07-29",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 42,
+   "category": "Subcontractor",
+   "work_package": "Superstructure Waterproofing (2)",
+   "standard_ref": "D0510",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Final Negotiations",
+   "date_of_last_action": "2026-08-03",
+   "comments": "TRF Under Process with Water Seal.",
+   "sheet_rows": {
+    "planned": 76,
+    "actual": 77
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-12",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": "2026-01-14",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": "2026-03-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": "2026-04-15",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": "2026-06-05",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": "2026-06-08",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": "2026-08-03",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 43,
+   "category": "Subcontractor",
+   "work_package": "Cement Plaster (1)",
+   "standard_ref": "D0611",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Final Negotiations",
+   "date_of_last_action": "2026-09-24",
+   "comments": "TRF Under process awarded value changed from 199 villasto 70 villas.",
+   "sheet_rows": {
+    "planned": 78,
+    "actual": 79
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-24",
+     "actual": "2026-04-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-26",
+     "actual": "2026-04-22",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-27",
+     "actual": "2026-04-22",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-27",
+     "actual": "2026-04-22",
+     "sla_days_to_next": 7
+    },
+    "tq_process": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-09",
+     "actual": "2026-07-28",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-12",
+     "actual": "2026-07-28",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-14",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": "2026-09-21",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": "2026-09-21",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": "2026-09-21",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 45,
+   "category": "Subcontractor",
+   "work_package": "EIFS (1)",
+   "standard_ref": "D0728",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-20",
+   "comments": "PTCs prepared, Mid bid meeting completed, Waiting for discounted rates.",
+   "sheet_rows": {
+    "planned": 80,
+    "actual": 81
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-02-04",
+     "actual": "2026-09-15",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-02-07",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-02-07",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-02-12",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-17",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-09-16",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-21",
+     "actual": "2026-09-19",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-23",
+     "actual": "2026-09-20",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-03-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-03-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-03-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-03-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-03-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-03-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 48,
+   "category": "Subcontractor",
+   "work_package": "External Cladding (SFS) (1)",
+   "standard_ref": "D0724",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-20",
+   "comments": "PTCs prepared, Mid bid meeting completed, Waiting for discounted rates.",
+   "sheet_rows": {
+    "planned": 82,
+    "actual": 83
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-02-04",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-02-07",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-02-07",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-02-12",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-17",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-09-16",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-21",
+     "actual": "2026-09-19",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-23",
+     "actual": "2026-09-20",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-03-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-03-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-03-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-03-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-03-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-03-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 52,
+   "category": "Subcontractor",
+   "work_package": "Plasterboard Ceilings & Partitions (1)",
+   "standard_ref": "E0401",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 17225,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-09-29",
+   "comments": "Awarded with Hallmark",
+   "sheet_rows": {
+    "planned": 84,
+    "actual": 85
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-15",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-17",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-18",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-18",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-28",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-03",
+     "actual": "2026-01-23",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-04-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-08",
+     "actual": "2026-05-10",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-15",
+     "actual": "2026-05-15",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-06-20",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-19",
+     "actual": "2026-08-06",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-21",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-23",
+     "actual": "2026-08-10",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-28",
+     "actual": "2026-09-29",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 53,
+   "category": "Subcontractor",
+   "work_package": "Plasterboard Ceilings & Partitions (2)",
+   "standard_ref": "E0401",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": "17230",
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-08-25",
+   "comments": "Awarded with Waterseal.",
+   "sheet_rows": {
+    "planned": 86,
+    "actual": 87
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-15",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-17",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-18",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-18",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-28",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-03",
+     "actual": "2026-01-23",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-04-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-08",
+     "actual": "2026-05-10",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-15",
+     "actual": "2026-05-15",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-06-20",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-19",
+     "actual": "2026-08-06",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-21",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-23",
+     "actual": "2026-08-10",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-28",
+     "actual": "2026-08-25",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 56,
+   "category": "Subcontractor",
+   "work_package": "Painting (1)",
+   "standard_ref": "E0801",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15898,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-07-07",
+   "comments": "Awarded with Favorite Plus.",
+   "sheet_rows": {
+    "planned": 88,
+    "actual": 89
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-19",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-21",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-22",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-22",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-02-01",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-07",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-12",
+     "actual": "2026-03-10",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-02-15",
+     "actual": "2026-03-15",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-04-20",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-19",
+     "actual": "2026-04-25",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-21",
+     "actual": "2026-05-10",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-23",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-28",
+     "actual": "2026-07-07",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 10747824.72,
+   "awarded_cost_aed": 8404053.32,
+   "bidders": [
+    {
+     "vendor": "Favorite Plus",
+     "initial_proposal": 8404053.32,
+     "initial_rank": 1,
+     "bafo": 8404053.32,
+     "lafo": 8404053.32,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 57,
+   "category": "Subcontractor",
+   "work_package": "Painting (2)",
+   "standard_ref": "E0801",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 17682,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-09-22",
+   "comments": "Awarded with Techno Serve.",
+   "sheet_rows": {
+    "planned": 90,
+    "actual": 91
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-19",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-21",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-22",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-22",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-02-01",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-07",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-10",
+     "actual": "2026-07-27",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-12",
+     "actual": "2026-08-01",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-02-15",
+     "actual": "2026-08-15",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-08-18",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-19",
+     "actual": "2026-08-25",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-21",
+     "actual": "2026-09-01",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-23",
+     "actual": "2026-09-08",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-28",
+     "actual": "2026-09-22",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 58,
+   "category": "Subcontractor",
+   "work_package": "Painting (3)",
+   "standard_ref": "E0801",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Final Negotiations",
+   "date_of_last_action": "2026-08-05",
+   "comments": "BIDTAB Process",
+   "sheet_rows": {
+    "planned": 92,
+    "actual": 93
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-19",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-21",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-22",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-22",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-02-01",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-07",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-10",
+     "actual": "2026-05-27",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-12",
+     "actual": "2026-03-10",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-02-15",
+     "actual": "2026-05-15",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-06-20",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-19",
+     "actual": "2026-08-05",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-23",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-28",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 60,
+   "category": "Supply",
+   "work_package": "Stone Cladding Supply (Porcelain)",
+   "standard_ref": "D0903",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": "16076",
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-05",
+   "comments": "Closed with Graniti",
+   "sheet_rows": {
+    "planned": 94,
+    "actual": 95
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-01",
+     "actual": "2026-02-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-04",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-09",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-14",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-19",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-24",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-31",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-06-05",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 61,
+   "category": "Supply",
+   "work_package": "Door Hardware",
+   "standard_ref": "E0203",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": "17446",
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-08-24",
+   "comments": "OBT Approved\nLPO Issued",
+   "sheet_rows": {
+    "planned": 96,
+    "actual": 97
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-21",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-23",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-24",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-09",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-12",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": "2026-08-24",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": "2026-08-24",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 62,
+   "category": "Subcontractor",
+   "work_package": "Miscellaneous Metalwork (1)",
+   "standard_ref": "E0101",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 16880,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-08-17",
+   "comments": "Dutco Metal Division - 149 Villa",
+   "sheet_rows": {
+    "planned": 98,
+    "actual": 99
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-11",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-06",
+     "actual": "2026-04-10",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-09",
+     "actual": "2026-04-15",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-11",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2026-02-16",
+     "actual": "2026-05-21",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-21",
+     "actual": "2026-06-10",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-22",
+     "actual": "2026-06-29",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-24",
+     "actual": "2026-06-30",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-26",
+     "actual": "2026-07-20",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-03-03",
+     "actual": "2026-08-17",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 63,
+   "category": "Subcontractor",
+   "work_package": "Miscellaneous Metalwork (2)",
+   "standard_ref": "E0101",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 16858,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-08-17",
+   "comments": "Emerge Steel - 50 Villa",
+   "sheet_rows": {
+    "planned": 100,
+    "actual": 101
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-11",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-06",
+     "actual": "2026-04-10",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-09",
+     "actual": "2026-04-15",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-11",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2026-02-16",
+     "actual": "2026-05-21",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-21",
+     "actual": "2026-06-10",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-22",
+     "actual": "2026-06-29",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-24",
+     "actual": "2026-06-30",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-26",
+     "actual": "2026-07-18",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-03-03",
+     "actual": "2026-08-17",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 64,
+   "category": "Subcontractor",
+   "work_package": "Metal Doors",
+   "standard_ref": "E0209",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15004,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Order Concluded with Eastern ( Only on Guard House )",
+   "sheet_rows": {
+    "planned": 102,
+    "actual": 103
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-06",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-08",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-19",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-28",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-30",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 65,
+   "category": "Subcontractor",
+   "work_package": "Kitchen Equipment",
+   "standard_ref": "E1101",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Commercial Review",
+   "date_of_last_action": "2026-03-20",
+   "comments": "Site Confirmed Package will be finalized by EMAR",
+   "sheet_rows": {
+    "planned": 104,
+    "actual": 105
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-22",
+     "actual": "2025-01-29",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-24",
+     "actual": "2025-01-29",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-25",
+     "actual": "2025-01-29",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-25",
+     "actual": "2025-01-30",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-30",
+     "actual": "2025-01-30",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-04",
+     "actual": "2025-01-30",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-03-05",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-08",
+     "actual": "2026-03-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-30",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 66,
+   "category": "Subcontractor",
+   "work_package": "Stone Cladding (Porcelain) (1)",
+   "standard_ref": "D0905",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-26",
+   "comments": "waiting for the final discounted quotations",
+   "sheet_rows": {
+    "planned": 106,
+    "actual": 107
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-01",
+     "actual": "2026-02-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-03",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-04",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-04",
+     "actual": "2026-02-22",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-09",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-14",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-19",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-22",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-24",
+     "actual": "2026-09-26",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-31",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 67,
+   "category": "Subcontractor",
+   "work_package": "Stone Cladding (Porcelain) (2)",
+   "standard_ref": "D0905",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-26",
+   "comments": "waiting for the final discounted quotations",
+   "sheet_rows": {
+    "planned": 108,
+    "actual": 109
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-01",
+     "actual": "2026-02-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-03",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-04",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-04",
+     "actual": "2026-02-22",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-09",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-14",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-19",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-22",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-24",
+     "actual": "2026-09-26",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-31",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 1592510.94,
+   "awarded_cost_aed": 1592510.94,
+   "bidders": [
+    {
+     "vendor": "Graniti",
+     "initial_proposal": 1592510.94,
+     "initial_rank": 1,
+     "bafo": 1592510.94,
+     "lafo": 1592510.94,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 68,
+   "category": "Supply",
+   "work_package": "Tiling (Supply)",
+   "standard_ref": "E0501",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15308,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-22",
+   "comments": "RAK Ceramics PJSC",
+   "sheet_rows": {
+    "planned": 110,
+    "actual": 111
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-18",
+     "actual": "2026-01-19",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-12-20",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-12-21",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-12-21",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2025-12-26",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2025-12-28",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-29",
+     "actual": "2026-01-29",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-01",
+     "actual": "2026-02-05",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-03",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 0
+    },
+    "ptc_closed": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-01-05",
+     "actual": "2026-02-02",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-01-06",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-01-15",
+     "actual": "2026-04-22",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 2016279.31,
+   "awarded_cost_aed": 1457009.38,
+   "bidders": [
+    {
+     "vendor": "RAK",
+     "initial_proposal": 1457009.38,
+     "initial_rank": 1,
+     "bafo": 1457009.38,
+     "lafo": 1457009.38,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 69,
+   "category": "Subcontractor",
+   "work_package": "Fireproofing (1)",
+   "standard_ref": "F0309",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Commercial Review",
+   "date_of_last_action": "2026-10-12",
+   "comments": "waiting for the Signed PTC's & TRF Documents",
+   "sheet_rows": {
+    "planned": 112,
+    "actual": 113
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-02-01",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-02-03",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-02-04",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-02-04",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "tq_process": {
+     "planned": "2026-02-07",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "tqs_closed": {
+     "planned": "2026-02-09",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-10",
+     "actual": "2026-10-08",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-13",
+     "actual": "2026-10-12",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-15",
+     "actual": "2026-09-12",
+     "sla_days_to_next": 2
+    },
+    "ptc_closed": {
+     "planned": "2026-02-17",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 1
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-18",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-19",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-21",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-23",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-28",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 71,
+   "category": "Subcontractor",
+   "work_package": "Hard Landscape (1)",
+   "standard_ref": "G0106",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-09-11",
+   "comments": "OBT Approved Urban Landscape",
+   "sheet_rows": {
+    "planned": 114,
+    "actual": 115
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-02",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-04",
+     "actual": "2026-02-10",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-05",
+     "actual": "2026-02-10",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-05",
+     "actual": "2026-02-10",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2026-03-19",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-03-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-03-25",
+     "actual": "2026-05-10",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-03-28",
+     "actual": "2026-05-20",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-03-30",
+     "actual": "2026-07-25",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-04-02",
+     "actual": "2026-07-28",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-04-05",
+     "actual": "2025-07-31",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-04-06",
+     "actual": "2026-08-03",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-04-08",
+     "actual": "2026-08-05",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-04-10",
+     "actual": "2026-09-05",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-04-15",
+     "actual": "2026-09-11",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 73,
+   "category": "Subcontractor",
+   "work_package": "Topping Screeds (1)",
+   "standard_ref": "D0601",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-06-15",
+   "comments": "Site team To conclude",
+   "sheet_rows": {
+    "planned": 116,
+    "actual": 117
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-06",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-08",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-15",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-15",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-19",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-25",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-28",
+     "actual": "2026-02-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-30",
+     "actual": "2026-06-15",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 74,
+   "category": "Subcontractor",
+   "work_package": "Architectural Screeds (2)",
+   "standard_ref": "D0601",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-09-29",
+   "comments": "Awarded with Spraytek.",
+   "sheet_rows": {
+    "planned": 118,
+    "actual": 119
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-06",
+     "actual": "2025-12-24",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-08",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-15",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-15",
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-01-19",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-25",
+     "actual": "2026-02-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-28",
+     "actual": "2026-02-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-30",
+     "actual": "2026-08-10",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": "2026-09-04",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": "2026-09-07",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-09-10",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": "2026-09-14",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": "2026-09-16",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-09-29",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 75,
+   "category": "Subcontractor",
+   "work_package": "Shower Screens (1)",
+   "standard_ref": "E0911",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15008,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Awarded with Al Qassim",
+   "sheet_rows": {
+    "planned": 120,
+    "actual": 121
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-22",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-24",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-25",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-25",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-03-30",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-04-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-05",
+     "actual": "2026-01-07",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-08",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-10",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-04-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-04-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-04-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-04-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-04-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-04-30",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 76,
+   "category": "Subcontractor",
+   "work_package": "Shower Screens (2)",
+   "standard_ref": "E0911",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15004,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Awarded with Eastern",
+   "sheet_rows": {
+    "planned": 122,
+    "actual": 123
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-22",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-24",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-25",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-25",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-03-30",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-04-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-05",
+     "actual": "2026-01-07",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-08",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-10",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-04-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-04-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-04-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-04-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-04-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-04-30",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 77,
+   "category": "Subcontractor",
+   "work_package": "Tiling Labour (1)",
+   "standard_ref": "E0517",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-25",
+   "comments": "PTC's Under review with project team",
+   "sheet_rows": {
+    "planned": 124,
+    "actual": 125
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-08-18",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-09-21",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": "2026-09-25",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 78,
+   "category": "Subcontractor",
+   "work_package": "Tiling Labour (2)",
+   "standard_ref": "E0517",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-25",
+   "comments": "PTC's Under review with project team",
+   "sheet_rows": {
+    "planned": 126,
+    "actual": 127
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": "2026-08-27",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": "2026-09-21",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": "2026-09-25",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 79,
+   "category": "Subcontractor",
+   "work_package": "Tiling Labour (3)",
+   "standard_ref": "E0517",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awaiting DTP",
+   "date_of_last_action": "2025-12-31",
+   "comments": "Site team to Conclude order",
+   "sheet_rows": {
+    "planned": 128,
+    "actual": 129
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 80,
+   "category": "Subcontractor",
+   "work_package": "Tiling Labour (4)",
+   "standard_ref": "E0517",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awaiting DTP",
+   "date_of_last_action": "2025-12-31",
+   "comments": "Site team to Conclude order",
+   "sheet_rows": {
+    "planned": 130,
+    "actual": 131
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-07",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-09",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-15",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-21",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-24",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-02-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 81,
+   "category": "Subcontractor",
+   "work_package": "Roller Shutters",
+   "standard_ref": "E0126",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 14995,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-02",
+   "comments": "Order Concluded with Bin Dasmal",
+   "sheet_rows": {
+    "planned": 132,
+    "actual": 133
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-04-06",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-04-08",
+     "actual": "2026-01-29",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-04-09",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-04-09",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-04-14",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-04-19",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-20",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-23",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-25",
+     "actual": "2026-02-09",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-05-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-05-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-05-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-05-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-05-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-05-15",
+     "actual": "2026-04-02",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 2328300,
+   "awarded_cost_aed": 1872100,
+   "bidders": [
+    {
+     "vendor": "Bin Dasmal",
+     "initial_proposal": 1872100,
+     "initial_rank": 1,
+     "bafo": 1872100,
+     "lafo": 1872100,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 82,
+   "category": "Subcontractor",
+   "work_package": "Signage",
+   "standard_ref": "E1001",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 16471,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-24",
+   "comments": "Closed",
+   "sheet_rows": {
+    "planned": 134,
+    "actual": 135
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-04-08",
+     "actual": "2026-01-28",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-04-10",
+     "actual": "2026-01-29",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-04-11",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-04-11",
+     "actual": "2026-01-30",
+     "sla_days_to_next": 7
+    },
+    "tq_process": {
+     "planned": "2026-04-18",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-04-23",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-24",
+     "actual": "2026-04-10",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-27",
+     "actual": "2026-04-22",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-29",
+     "actual": "2026-06-15",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-05-02",
+     "actual": "2026-06-15",
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-05-05",
+     "actual": "2026-06-10",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-05-06",
+     "actual": "2026-06-10",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-05-08",
+     "actual": "2026-06-15",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-05-10",
+     "actual": "2026-06-24",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-05-15",
+     "actual": "2026-06-24",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 83,
+   "category": "Subcontractor",
+   "work_package": "Epoxy Coatings",
+   "standard_ref": "E0811",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "MANI",
+   "date_added": "2025-12-31",
+   "obt_ref": 15898,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-05-21",
+   "comments": "Part of painting scope",
+   "sheet_rows": {
+    "planned": 136,
+    "actual": 137
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-24",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-26",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-27",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-27",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 7
+    },
+    "tq_process": {
+     "planned": "2026-04-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-04-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-09",
+     "actual": "2026-01-21",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-04-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-04-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-04-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-04-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-04-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-04-30",
+     "actual": "2026-05-21",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 84,
+   "category": "Subcontractor",
+   "work_package": "GRP Linings",
+   "standard_ref": "D0506",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-09-26",
+   "comments": "TRF Documents under preparation",
+   "sheet_rows": {
+    "planned": 138,
+    "actual": 139
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-09",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-09",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2026-03-19",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-03-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-03-25",
+     "actual": "2026-08-21",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-03-28",
+     "actual": "2026-08-21",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-03-30",
+     "actual": "2026-09-26",
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2026-04-02",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-04-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-04-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-04-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-04-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-04-15",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 87,
+   "category": "Subcontractor",
+   "work_package": "Civil Works in MEP (1)",
+   "standard_ref": "F0305",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awaiting DTP",
+   "date_of_last_action": "2025-12-31",
+   "comments": "Site team to Conclude order",
+   "sheet_rows": {
+    "planned": 140,
+    "actual": 141
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-11-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-11-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-11-25",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-11-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-11-30",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-12-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-12-06",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-12-09",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-12-11",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-12-18",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-12-21",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-12-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-12-24",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-12-26",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-12-31",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 88,
+   "category": "Subcontractor",
+   "work_package": "Civil Works in MEP (2)",
+   "standard_ref": "F0305",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2025-12-31",
+   "obt_ref": null,
+   "status_in_sheet": "Awaiting DTP",
+   "date_of_last_action": "2025-12-31",
+   "comments": "Site team to Conclude order",
+   "sheet_rows": {
+    "planned": 142,
+    "actual": 143
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-11-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-11-24",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-11-25",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-11-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-11-30",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-12-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-12-06",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-12-09",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-12-11",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-12-18",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-12-21",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-12-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-12-24",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-12-26",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-12-31",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": null,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  },
+  {
+   "sl_no": 89,
+   "category": "Supply",
+   "work_package": "Supply of Porcelain cladding",
+   "standard_ref": "E0503",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2026-06-11",
+   "obt_ref": "16159",
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-06-05",
+   "comments": "Awarded with Casamia",
+   "sheet_rows": {
+    "planned": 144,
+    "actual": 145
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-12-31",
+     "actual": "2026-02-17",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-02",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-08",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-13",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-17",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-19",
+     "actual": null,
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-06-05",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 1252440,
+   "awarded_cost_aed": 1252440,
+   "bidders": [
+    {
+     "vendor": "Casamia",
+     "initial_proposal": 1252440,
+     "initial_rank": 1,
+     "bafo": 1252440,
+     "lafo": 1252440,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 90,
+   "category": "Subcontractor",
+   "work_package": "Aluminium Doors",
+   "standard_ref": "E0207",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2026-06-11",
+   "obt_ref": 15389,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-24",
+   "comments": "Awarded with Al Qassim",
+   "sheet_rows": {
+    "planned": 146,
+    "actual": 147
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-20",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-22",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-12-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-09",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-12",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-12-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-30",
+     "actual": "2026-04-24",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 4207272,
+   "awarded_cost_aed": 4187043,
+   "bidders": [
+    {
+     "vendor": "Al Qassim",
+     "initial_proposal": 4187043,
+     "initial_rank": 1,
+     "bafo": 4187043,
+     "lafo": 4187043,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 91,
+   "category": "Subcontractor",
+   "work_package": "Aluminium Doors",
+   "standard_ref": "E0207",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2026-06-11",
+   "obt_ref": 15391,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-24",
+   "comments": "Awarded with Eastern",
+   "sheet_rows": {
+    "planned": 148,
+    "actual": 149
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-20",
+     "actual": "2026-01-20",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-22",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-12-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-09",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-12",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-12-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-30",
+     "actual": "2026-04-24",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 4207272,
+   "awarded_cost_aed": 4187043,
+   "bidders": [
+    {
+     "vendor": "Al Qassim",
+     "initial_proposal": 4187043,
+     "initial_rank": 1,
+     "bafo": 4187043,
+     "lafo": 4187043,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 92,
+   "category": "Subcontractor",
+   "work_package": "Precast Boundary Wall",
+   "standard_ref": "D0101",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MUFADDAL",
+   "date_added": "2026-06-11",
+   "obt_ref": 15368,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-04-24",
+   "comments": "Awarded with Mouldex",
+   "sheet_rows": {
+    "planned": 150,
+    "actual": 151
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2025-11-20",
+     "actual": "2025-12-21",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2025-11-22",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2025-11-23",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tq_process": {
+     "planned": "2025-12-03",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2025-12-08",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2025-12-09",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2025-12-12",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2025-12-14",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "ptc_closed": {
+     "planned": "2025-12-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2025-12-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2025-12-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2025-12-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2025-12-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2025-12-30",
+     "actual": "2026-04-24",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 18263257.44,
+   "awarded_cost_aed": 16200000,
+   "bidders": [
+    {
+     "vendor": "MOULDEX",
+     "initial_proposal": 16200000,
+     "initial_rank": 1,
+     "bafo": 16200000,
+     "lafo": 16200000,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 93,
+   "category": "Subcontractor",
+   "work_package": "Stone Works (3)",
+   "standard_ref": "D0901",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2026-07-22",
+   "obt_ref": 16903,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-07-28",
+   "comments": "Awarded with Al Shafar",
+   "sheet_rows": {
+    "planned": 152,
+    "actual": 153
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-01",
+     "actual": "2026-01-06",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-03",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-04",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-04",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-14",
+     "actual": "2025-01-11",
+     "sla_days_to_next": 5
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-19",
+     "actual": "2025-03-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-22",
+     "actual": "2026-04-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-24",
+     "actual": "2026-06-30",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-31",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-07-15",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": "2026-07-20",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": "2026-07-28",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-07-28",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 17581625.08,
+   "awarded_cost_aed": 16894669,
+   "bidders": [
+    {
+     "vendor": "Stonetta",
+     "initial_proposal": 16894669,
+     "initial_rank": 1,
+     "bafo": 16894669,
+     "lafo": 16894669,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 94,
+   "category": "Subcontractor",
+   "work_package": "Stone works (4)",
+   "standard_ref": "D0901",
+   "preferred_vendor_flag": "Yes",
+   "package_manager_raw": "MANI",
+   "date_added": "2026-07-22",
+   "obt_ref": 17266,
+   "status_in_sheet": "Awarded",
+   "date_of_last_action": "2026-08-12",
+   "comments": "Awarded with Stonetta",
+   "sheet_rows": {
+    "planned": 154,
+    "actual": 155
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-01",
+     "actual": "2026-01-06",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-03",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-04",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-04",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-10",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-01-14",
+     "actual": "2025-01-11",
+     "sla_days_to_next": 5
+    },
+    "initial_proposals_received": {
+     "planned": "2026-01-19",
+     "actual": "2025-03-20",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-01-22",
+     "actual": "2026-04-25",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-01-24",
+     "actual": "2026-06-30",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-01-31",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-05",
+     "actual": "2026-07-10",
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-06",
+     "actual": "2026-07-15",
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-08",
+     "actual": "2026-07-20",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-10",
+     "actual": "2026-08-12",
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-02-15",
+     "actual": "2026-08-12",
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 15602372.51,
+   "awarded_cost_aed": 14823106.92,
+   "bidders": [
+    {
+     "vendor": "Al Shafar",
+     "initial_proposal": 14823106.92,
+     "initial_rank": 1,
+     "bafo": 14823106.92,
+     "lafo": 14823106.92,
+     "awarded": true
+    }
+   ]
+  },
+  {
+   "sl_no": 95,
+   "category": "Subcontractor",
+   "work_package": "Supply & Installation of Roof Access Hatch",
+   "standard_ref": "E0101",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2026-08-10",
+   "obt_ref": null,
+   "status_in_sheet": "Final Negotiations",
+   "date_of_last_action": "2026-09-24",
+   "comments": "waiting for the Signed PTC's & TRF Documents",
+   "sheet_rows": {
+    "planned": 156,
+    "actual": 157
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-01-09",
+     "actual": "2026-01-26",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-01-11",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-01-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-01-12",
+     "actual": "2026-01-27",
+     "sla_days_to_next": 14
+    },
+    "tq_process": {
+     "planned": "2026-01-26",
+     "actual": null,
+     "sla_days_to_next": 10
+    },
+    "tqs_closed": {
+     "planned": "2026-02-05",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-02-06",
+     "actual": "2026-05-06",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-02-09",
+     "actual": "2026-08-29",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-02-11",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 5
+    },
+    "ptc_closed": {
+     "planned": "2026-02-16",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-02-21",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-02-22",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-02-24",
+     "actual": "2026-09-24",
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-02-26",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-03-03",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   }
+  },
+  {
+   "sl_no": 96,
+   "category": "Subcontractor",
+   "work_package": "Supply & Installation of Mirror",
+   "standard_ref": "E0901",
+   "preferred_vendor_flag": null,
+   "package_manager_raw": "SITE TEAM",
+   "date_added": "2026-08-10",
+   "obt_ref": null,
+   "status_in_sheet": "PTC Stage",
+   "date_of_last_action": "2026-05-28",
+   "comments": "Site team to Conclude order",
+   "sheet_rows": {
+    "planned": 158,
+    "actual": 159
+   },
+   "milestones": {
+    "dtp_received": {
+     "planned": "2026-03-22",
+     "actual": "2026-01-02",
+     "sla_days_to_next": 2
+    },
+    "stp_created": {
+     "planned": "2026-03-24",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 1
+    },
+    "provide_link_to_stp": {
+     "planned": "2026-03-25",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 0
+    },
+    "float_rfps": {
+     "planned": "2026-03-25",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 5
+    },
+    "tq_process": {
+     "planned": "2026-03-30",
+     "actual": "2026-01-03",
+     "sla_days_to_next": 5
+    },
+    "tqs_closed": {
+     "planned": "2026-04-04",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "initial_proposals_received": {
+     "planned": "2026-04-05",
+     "actual": "2026-01-07",
+     "sla_days_to_next": 3
+    },
+    "initial_bid_tab": {
+     "planned": "2026-04-08",
+     "actual": "2026-01-08",
+     "sla_days_to_next": 2
+    },
+    "ptc_process": {
+     "planned": "2026-04-10",
+     "actual": "2026-05-28",
+     "sla_days_to_next": 7
+    },
+    "ptc_closed": {
+     "planned": "2026-04-17",
+     "actual": null,
+     "sla_days_to_next": 3
+    },
+    "lafo_proposal_received": {
+     "planned": "2026-04-20",
+     "actual": null,
+     "sla_days_to_next": 1
+    },
+    "final_bid_tab": {
+     "planned": "2026-04-21",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "trf_created": {
+     "planned": "2026-04-23",
+     "actual": null,
+     "sla_days_to_next": 2
+    },
+    "uploaded_to_obt": {
+     "planned": "2026-04-25",
+     "actual": null,
+     "sla_days_to_next": 5
+    },
+    "award_issued": {
+     "planned": "2026-04-30",
+     "actual": null,
+     "sla_days_to_next": 0
+    }
+   },
+   "allowable_aed": 509611.05,
+   "awarded_cost_aed": 0,
+   "bidders": []
+  }
+ ]
+}

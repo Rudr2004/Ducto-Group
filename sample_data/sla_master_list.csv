@@ -1,0 +1,684 @@
+standard_ref,work_package,dtp_received,stp_created,provide_link_to_stp,float_rfps,tq_process,tqs_closed,initial_proposals_received,initial_bid_tab,ptc_process,ptc_closed,lafo_proposal_received,final_bid_tab,trf_created,uploaded_to_obt,award_issued,total_days
+A0101,Tender Write-Off Costs,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0102,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0103,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0104,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0105,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0201,Staff Salaries,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0206,Incentives,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0211,DLP Maintenance,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0212,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0213,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0214,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0215,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0216,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0301,Indirect Labour,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0306,Crane Crew,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0311,Drivers,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0312,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0313,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0314,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0315,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0316,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0401,Head Office Overheads,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0403,Staff Travel and Accommodation,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0405,Training Costs,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0407,Entertainment Employees Off Site,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0409,Recruitment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0411,Petty Cash Recharge,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0412,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0413,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0414,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0415,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0416,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0417,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0501,Administration Fees,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0503,Municipal Permits,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0505,Legal Fees,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0506,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0507,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0508,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0509,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0510,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0511,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0601,Premiums,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0603,Contractor's All Risk,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0605,Professional Indemnity,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0607,Third Party Liability,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0609,Others,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0610,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0611,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0612,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0613,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0614,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0615,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0701,Bonds,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0703,Bank Guarantees,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0704,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0705,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0706,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0707,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0708,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0709,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0801,Small Tools Purchase,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0803,Consumables,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0805,Stationery,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0807,Plan Printing & Site Photographs,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0809,Kitchen Supplies,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0811,Refreshments,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0812,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0813,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0814,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0815,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0816,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0817,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0901,Staff Travel Expenses,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0902,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0903,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0904,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0905,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0906,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A0907,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1001,IT Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1006,Internet,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1011,Document Management,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1012,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1013,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1014,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1015,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1016,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1017,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1101,Hoarding,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1106,Temporary Fencing,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1111,Traffic Barriers,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1116,"Decals, Signage & Graphics",2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+A1117,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1118,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1119,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1120,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1121,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1122,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1201,Security Access Cards And Permits,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1206,Security Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1211,CCTV Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1212,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1213,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1214,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1215,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1216,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1217,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1301,Access Roads and Ramps,2,1,0,3,2,1,3,2,2,1,1,2,2,5,0,27
+A1302,Site Office Land Rental,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1303,Site Office Establishment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1305,Site Toilets,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1307,Amenities for Labour,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1309,Furniture and Office Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1311,Pest Control,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1313,Project Signboard,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1315,Staff Parking,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1317,Engineers Testing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1318,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1319,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1320,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1321,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1322,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1323,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1401,Establishment,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1406,Temporary Electrics,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1411,Temporary Water,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1415,Wild Air,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+A1416,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1417,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1418,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1419,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1420,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1421,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1501,Radios,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1506,Staff Mobile Phones,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1507,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1508,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1509,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1510,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1511,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1512,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1601,Survey Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1606,Dilapidation Report,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1607,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1608,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1609,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1610,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1611,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1612,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1701,Cleaning consumables,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1706,Bins & Rubble Removal,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1711,Final Clean,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1716,Protection Requirements,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1717,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1718,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1719,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1720,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1721,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1722,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1801,Protective Clothing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1805,Safety Equipment and Signage,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+A1807,First Aid Consumables,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1809,Wheel Wash,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1813,Dust & Noise Controls,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1814,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1815,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1816,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1817,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1818,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1819,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1901,Tool and Equipment Purchase,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1907,Tool and Equipment Hire,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1913,Loading Platforms,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1914,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1915,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1916,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1917,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1918,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A1919,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2001,Scaffolding Purchase,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2006,Scaffolding Hire,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2011,Scaffolding Labour,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2012,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2013,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2014,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2015,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2016,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2017,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2101,Hoists,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2106,Tower Cranes,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2111,Mobile Cranes,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2116,Excavators,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2121,Backhoe Loaders,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2123,Boom Lifts,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2124,Scissor Lift,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2126,Rollers,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2131,Generators,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2133,Water Tankers,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2136,Builder's Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2141,Site Vehicles,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2145,Plant - Other,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2151,Fuel,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2152,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2153,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2154,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2155,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2156,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2157,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2201,Attendance on Subcontractors,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2202,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2203,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2204,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2205,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2206,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+A2207,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0101,Demolition,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+B0106,Rubble Removal,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0111,Vibration Monitoring,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+B0112,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0113,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0114,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0115,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0116,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0201,Hazardous Materials,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0202,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0203,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0204,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0205,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0206,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0301,Earthworks,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+B0305,Detailed Excavation,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0309,Anti-Termite,2,1,0,5,2,1,3,2,2,2,1,2,2,5,0,30
+B0313,Dewatering,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+B0317,DM Tipping Fees,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0318,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0319,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0320,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0321,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0322,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0401,Lateral Supports,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0406,Shotcrete Works,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0411,Soil Nails,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0416,Ground Anchors,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0417,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0418,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0419,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0420,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0421,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0501,Piling,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+B0506,Pile Breaking,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+B0511,Pile Treatment,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+B0512,Shoring,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0513,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0514,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0515,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+B0516,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0101,Concrete Supply - #1,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0102,Concrete Supply - #2,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0106,Placing Equipment,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0111,Concrete Sundries,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0112,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0113,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0114,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0115,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0116,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0201,Formwork System,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0206,Jumpform System,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0211,Formwork Materials,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0212,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0213,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0214,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0215,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0216,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0301,Reinforcement,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0306,Mesh,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0309,Couplers,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0311,Reinforcing Sundries,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+C0312,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0313,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0314,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0315,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0316,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0401,Post Tensioning,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0403,Tendon Locking,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0406,PT Sundries,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0407,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0408,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0409,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0410,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0411,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0501,RCS Labour - #1,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0502,RCS Labour - #2,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0503,RCS Labour - #3,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0504,RCS Labour - #4,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0505,RCS Labour - #5,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0506,RCS Plant,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0511,RCS Tools,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0516,RCS Sundries,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+C0517,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0518,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0519,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0520,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0521,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0601,Concrete Testing,2,1,0,3,2,1,3,2,0,2,1,2,2,5,0,26
+C0606,Structural Strengthening,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+C0611,Concrete Works Sundries,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0612,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0613,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0614,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0615,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+C0616,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0101,Precast,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0105,Precast Beams,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0106,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0107,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0108,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0109,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0110,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0201,Structural Steel,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+D0202,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0203,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0204,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0205,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0206,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0301,Expansion Joints,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0302,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0303,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0304,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0305,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0306,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0401,Masonry Works,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0406,Masonry Materials Supply,2,1,0,3,2,1,3,2,0,2,1,2,2,5,0,26
+D0411,Masonry Labour,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0416,Masonry Sundries,2,1,0,3,2,1,3,2,0,2,1,2,2,5,0,26
+D0417,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0418,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0419,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0420,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0421,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0501,Substructure Waterproofing,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0503,External Waterproofing,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0506,GRP Linings,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0509,Guniting,2,1,0,5,3,1,3,2,3,1,1,2,2,5,0,31
+D0510,Superstructure Waterproofing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0511,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0512,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0513,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0514,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0601,Screeds,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0611,Cement Plaster,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+D0612,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0613,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0614,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0615,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0616,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0701,Curtain Wall,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+D0706,Shop Fronts,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+D0711,Façade Feature,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0716,Aluminium Insulated Panels,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0721,Aluminium Cladding,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0724,External Cladding,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0726,Louvres,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+D0727,GRC,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0728,EIFS,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0729,Facade,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+D0730,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0731,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0801,Roofing,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D0806,Glazed Roofing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0811,Canopies,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0812,Access Hatches,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0813,Standing Seam,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0814,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0815,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0816,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0901,Stone Cladding,2,1,0,5,5,5,3,2,7,5,1,2,2,5,0,45
+D0903,Stone Cladding Supply,2,1,0,5,5,5,3,2,7,5,1,2,2,5,0,45
+D0905,Stone Cladding Install,2,1,0,5,5,5,3,2,7,5,1,2,2,5,0,45
+D0906,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0907,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0908,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0909,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D0910,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D1001,Building Maintenance Unit,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D1006,Life Safety Lines,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+D1007,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D1008,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D1009,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D1010,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+D1011,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0101,Miscellaneous Metalwork,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+E0106,Decorative Metalwork,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+E0109,Decorative Metal Screens,2,1,0,14,10,1,3,2,5,5,1,2,2,5,0,53
+E0111,Balustrades & Handrails,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0126,Roller Shutters,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0129,Dock Levellers,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0131,Carpark Accessories,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+E0136,Bollards,2,1,0,3,2,1,3,2,2,1,1,2,2,5,0,27
+E0141,Tactiles,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0142,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0143,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0144,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0145,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0146,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0201,Carpentry,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0203,Door Hardware,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0205,Timber Doors,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0207,Doors & Door Hardware,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0209,Metal Doors,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0211,Sanitary Hardware,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0212,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0213,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0214,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0215,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0216,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0301,Internal Waterproofing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0302,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0303,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0304,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0305,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0306,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0401,Plasterboard Ceilings & Paritions,2,1,0,10,5,1,3,2,7,3,1,2,2,5,0,44
+E0405,Decorative Ceilings,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0406,Soffit Insulation,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0411,Acoustic Linings,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0416,Toilet Partitions,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0421,Operable Walls,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0422,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0423,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0424,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0425,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0426,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0501,Tiling,2,1,0,5,2,1,3,2,0,2,1,2,2,5,0,28
+E0503,Porcelein Cladding,2,1,0,5,5,1,3,2,7,10,1,2,2,5,0,46
+E0506,Stonework,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0511,Bench & Counter Tops,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0516,Tiling and Stone Labour,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+E0517,Tiling Labour,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0518,Stone Labour,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0519,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0520,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0521,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0601,Bedroom,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0606,Kitchen,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0609,Feature Linings,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0611,Common Areas,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0616,Vanities,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0620,Built-in Joinery,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0621,ID Fit Out,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0622,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0623,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0624,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0625,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0701,Self-Levelling Screeds,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0704,Carpet,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0707,Timber Flooring,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0710,Access Floors,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0713,Vinyl Flooring,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0716,Micro Topping Finish,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0719,Entrance Mats,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0721,Acoustic Floor Treatment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0722,Anti-Microbial Screed,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0723,Stair Nosing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0724,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0725,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0726,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0801,Painting,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+E0806,Wall Paper,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0811,Epoxy Coatings,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+E0816,Decorative Coatings,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0817,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0818,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0819,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0820,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0821,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0901,Mirrors,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0906,Glass Partitions,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0911,Shower Screens,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0912,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0913,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0914,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0915,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E0916,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1001,Signage,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+E1006,External Signage,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+E1011,Wayfinding Signage,2,1,0,7,5,1,3,2,3,3,1,2,2,5,0,37
+E1012,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1013,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1014,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1015,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1016,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1101,Kitchen Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1106,Laundry Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1111,Linen Chutes,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1116,Garbage Chutes,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1117,Waste Management,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1118,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1119,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1120,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1121,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1201,Loose Furniture,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1203,Lockers,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1206,Outdoor Furniture,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1211,Playground Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1216,Gym Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1221,Whitegoods,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1225,Sauna & Steam Room,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1240,Mock-ups,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1241,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1242,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1243,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1244,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+E1245,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0101,MEP Services,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0105,Plumbing Services,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0109,Fire Services,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0113,Mechanical Services,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0117,Electrical Services,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0121,Security,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0125,Communications,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0129,Sanitaryware,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0130,Light Fittings,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0131,Refrigeration,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+F0132,Home Automation,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0133,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0134,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0135,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0201,Lifts,2,1,0,21,10,1,3,2,5,5,1,2,2,5,0,60
+F0206,Escalators & Travelators,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0211,Dumbwaiter,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0212,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0213,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0214,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0215,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0216,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0301,BWIC on Domestic Works,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0305,Civil Works in MEP,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0308,Fire & Smoke Curtain,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+F0309,Fireproofing,2,1,0,3,2,1,3,2,2,1,1,2,2,5,0,27
+F0313,Sealing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0317,Coring,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0318,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0319,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0320,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0321,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+F0322,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0101,Soft Landscape,2,1,0,14,5,1,3,2,3,3,1,2,2,5,0,44
+G0106,Hard Landscape,2,1,0,14,5,1,3,2,3,3,1,2,2,5,0,44
+G0111,Landscaping,2,1,0,14,5,1,3,2,3,3,1,2,2,5,0,44
+G0112,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0113,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0114,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0115,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0116,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0201,Paving,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0205,Asphalting,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0209,Kerbs,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0213,Traffic Equipment,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0217,Roadmarking,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0221,Protection of Services,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0225,Civil Works,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0226,Road Base Filling,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0227,RTA Tie-in,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0228,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0229,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0230,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0301,Fencing,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0306,Gates,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0307,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0308,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0309,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0310,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0311,Reserved for future use,2,1,0,5,5,1,7,2,7,7,1,2,2,5,0,47
+G0401,Swimming Pools,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0406,Jacuzzi,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0411,Water Features,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0412,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0413,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0414,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0415,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+G0416,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0101,Architect,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0103,Interior Design,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0105,Structural Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0107,Services Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0109,Facades Engineer,2,1,0,14,10,1,3,2,7,5,1,2,2,5,0,55
+H0111,Acoustic Services Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0113,Geotechnical Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0115,Traffic Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0117,Disability Consultant,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0119,Environmental Consultant,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0121,Landscape Architect,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0122,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0123,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0124,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0125,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0126,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0201,Architect,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0203,Structural Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0205,Services Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0207,Facade Engineer,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0209,BIM Modelling,2,1,0,10,5,1,3,2,3,3,1,2,2,5,0,40
+H0211,Temporary Engineering,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0212,House of Expertise,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0213,Miscellaneous Design,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0214,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0215,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0216,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0217,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+H0218,Reserved for future use,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0101,Original Provisional Sum 001,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0102,Original Provisional Sum 002,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0103,Original Provisional Sum 003,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0104,Original Provisional Sum 004,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0105,Original Provisional Sum 005,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0106,Original Provisional Sum 006,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0107,Original Provisional Sum 007,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0108,Original Provisional Sum 008,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0109,Original Provisional Sum 009,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0110,Original Provisional Sum 010,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0111,Original Provisional Sum 011,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0112,Original Provisional Sum 012,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0113,Original Provisional Sum 013,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0114,Original Provisional Sum 014,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0115,Original Provisional Sum 015,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0116,Original Provisional Sum 016,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0117,Original Provisional Sum 017,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0118,Original Provisional Sum 018,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0119,Original Provisional Sum 019,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0120,Original Provisional Sum 020,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0121,Original Provisional Sum 021,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0122,Original Provisional Sum 022,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0123,Original Provisional Sum 023,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0124,Original Provisional Sum 024,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0125,Original Provisional Sum 025,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0126,Original Provisional Sum 026,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0127,Original Provisional Sum 027,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0128,Original Provisional Sum 028,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0129,Original Provisional Sum 029,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0130,Original Provisional Sum 030,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0201,Awarded Provisional Sum 001,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0202,Awarded Provisional Sum 002,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0203,Awarded Provisional Sum 003,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0204,Awarded Provisional Sum 004,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0205,Awarded Provisional Sum 005,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0206,Awarded Provisional Sum 006,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0207,Awarded Provisional Sum 007,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0208,Awarded Provisional Sum 008,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0209,Awarded Provisional Sum 009,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0210,Awarded Provisional Sum 010,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0211,Awarded Provisional Sum 011,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0212,Awarded Provisional Sum 012,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0213,Awarded Provisional Sum 013,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0214,Awarded Provisional Sum 014,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0215,Awarded Provisional Sum 015,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0216,Awarded Provisional Sum 016,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0217,Awarded Provisional Sum 017,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0218,Awarded Provisional Sum 018,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0219,Awarded Provisional Sum 019,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0220,Awarded Provisional Sum 020,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0221,Awarded Provisional Sum 021,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0222,Awarded Provisional Sum 022,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0223,Awarded Provisional Sum 023,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0224,Awarded Provisional Sum 024,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0225,Awarded Provisional Sum 025,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0226,Awarded Provisional Sum 026,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0227,Awarded Provisional Sum 027,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0228,Awarded Provisional Sum 028,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0229,Awarded Provisional Sum 029,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0230,Awarded Provisional Sum 030,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0301,Attendance on Provisional Sums,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+J0305,Builder's Work on Provisional Sums,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+X0101,Risk Allowance,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+X0103,Escalation,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+X0105,Estimator's Contingency,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+X0107,Quantity Variance,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+Y0101,Own Work,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+Y0102,Internal Divisions,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+Y0103,MEP Works,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+Y0104,Interiors,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+Y0105,Provisional Sums,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39
+Y0109,Variation Margin,2,1,0,5,5,1,3,2,7,3,1,2,2,5,0,39

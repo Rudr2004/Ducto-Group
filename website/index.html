@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DUTCO — Built Since 1947. Intelligent Since Today.</title>
+<meta name="description" content="Dutco Group of Companies reimagined: nearly eight decades of heritage across construction, hospitality, energy and trading, powered by AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-core">
+    <div class="loader-ring"></div>
+    <span class="loader-logo">DUTCO</span>
+  </div>
+  <p class="loader-text mono" id="loaderText">Initialising neural core… 0%</p>
+</div>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="progress" id="progress"></div>
+
+<!-- Nav -->
+<header class="nav" id="nav">
+  <a href="#home" class="brand"><span class="brand-mark"></span>DUTCO<small>est. 1947</small></a>
+  <nav class="links" id="links">
+    <a href="#about">About</a>
+    <a href="#businesses">Businesses</a>
+    <a href="#ai">AI Lab</a>
+    <a href="#presence">Global</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#contact" class="btn btn-sm">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <canvas id="neural"></canvas>
+  <div class="aurora"><i></i><i></i><i></i></div>
+  <div class="hero-inner">
+    <div class="chip reveal"><span class="dot"></span> Dubai · Since 1947 · Now AI-native</div>
+    <h1 class="reveal">
+      Built on <span class="grad">heritage.</span><br>
+      Driven by <span class="grad" id="typed">intelligence.</span>
+    </h1>
+    <p class="lead reveal">From Dubai's first transport company to a global group across four continents — Dutco is wiring 78 years of experience into predictive, autonomous, data-driven operations.</p>
+    <div class="cta reveal">
+      <a href="#businesses" class="btn">Explore our businesses <span>→</span></a>
+      <a href="#ai" class="btn btn-ghost">See the AI Lab</a>
+    </div>
+  </div>
+  <div class="hero-stats reveal">
+    <div><b data-count="12000" data-suffix="+">0</b><span>Employees</span></div>
+    <div><b data-count="75" data-suffix="+">0</b><span>Nationalities</span></div>
+    <div><b data-count="40" data-suffix="+">0</b><span>Companies</span></div>
+    <div><b data-count="20" data-suffix="+">0</b><span>Countries</span></div>
+  </div>
+  <div class="scroll-hint"><span></span></div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee">
+  <div class="track">
+    <span>DutCon</span><span>DBB Contracting</span><span>BK Gulf</span><span>Dutco Interiors</span><span>Gulf Cobla</span><span>JA Resorts</span><span>The Manor Hotel</span><span>Dutco Energy</span><span>International Octane</span><span>Tarka Resources</span><span>Dutco Cleantech</span><span>Dutco Tennant</span><span>Modern Freight</span><span>Lionweld Meiser</span>
+    <span>DutCon</span><span>DBB Contracting</span><span>BK Gulf</span><span>Dutco Interiors</span><span>Gulf Cobla</span><span>JA Resorts</span><span>The Manor Hotel</span><span>Dutco Energy</span><span>International Octane</span><span>Tarka Resources</span><span>Dutco Cleantech</span><span>Dutco Tennant</span><span>Modern Freight</span><span>Lionweld Meiser</span>
+  </div>
+</div>
+
+<!-- About / timeline -->
+<section class="section" id="about">
+  <div class="wrap">
+    <p class="eyebrow mono reveal">/01 — Who we are</p>
+    <h2 class="reveal">The story of Dubai is <em>our</em> story.</h2>
+    <p class="sub reveal">In 1947 Dutco began as the Dubai Transport Company. As the city rose, so did we — building its roads, ports, hotels and energy infrastructure. Today every site, fleet and building we run feeds a single intelligence layer.</p>
+
+    <div class="timeline reveal">
+      <div class="t-line"><i id="tFill"></i></div>
+      <div class="t-item"><b>1947</b><h4>Dubai Transport Co.</h4><p>The founding venture that moves a young trading port.</p></div>
+      <div class="t-item"><b>1970s</b><h4>Construction &amp; Dredging</h4><p>Shaping coastlines and skylines across the Gulf.</p></div>
+      <div class="t-item"><b>1990s</b><h4>Hospitality &amp; Energy</h4><p>JA Resorts and a growing oil &amp; gas footprint.</p></div>
+      <div class="t-item"><b>2010s</b><h4>Global Expansion</h4><p>Offices from London to Toronto, Houston to the Maldives.</p></div>
+      <div class="t-item active"><b>Now</b><h4>Dutco Intelligence</h4><p>AI across every division — predictive, autonomous, sustainable.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Businesses -->
+<section class="section dark" id="businesses">
+  <div class="wrap">
+    <p class="eyebrow mono reveal">/02 — Our businesses</p>
+    <h2 class="reveal">Five divisions. <em>One</em> intelligence.</h2>
+
+    <div class="tabs reveal" id="tabs">
+      <button class="active" data-tab="0">Construction</button>
+      <button data-tab="1">Hospitality</button>
+      <button data-tab="2">Oil &amp; Gas</button>
+      <button data-tab="3">Trading &amp; Logistics</button>
+      <button data-tab="4">Real Estate</button>
+    </div>
+
+    <div class="panel-grid reveal">
+      <div class="panel" id="panel">
+        <h3 id="pTitle"></h3>
+        <p id="pText"></p>
+        <div class="ai-tag"><span class="mono">AI IN ACTION</span><p id="pAi"></p></div>
+        <div class="brands" id="pBrands"></div>
+      </div>
+      <div class="visual tilt" id="pVisual"><canvas id="vizCanvas"></canvas><span class="mono" id="vizLabel"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- AI Lab -->
+<section class="section" id="ai">
+  <div class="wrap">
+    <p class="eyebrow mono reveal">/03 — Dutco AI Lab</p>
+    <h2 class="reveal">Intelligence, <em>embedded</em> everywhere.</h2>
+    <div class="cards">
+      <article class="card tilt reveal"><div class="ico">◈</div><h4>Predictive Maintenance</h4><p>Sensors across fleets and plant forecast failures days ahead, cutting downtime by up to 38%.</p><div class="bar"><i style="--w:82%"></i></div></article>
+      <article class="card tilt reveal"><div class="ico">⬡</div><h4>Digital Twin Sites</h4><p>Every project mirrored in real time — schedule, cost and safety simulated before a shovel moves.</p><div class="bar"><i style="--w:68%"></i></div></article>
+      <article class="card tilt reveal"><div class="ico">✦</div><h4>Guest Intelligence</h4><p>Hyper-personalised stays across JA properties, from room preferences to dynamic pricing.</p><div class="bar"><i style="--w:91%"></i></div></article>
+      <article class="card tilt reveal"><div class="ico">◎</div><h4>Smart Logistics</h4><p>Route optimisation and demand sensing move freight faster with a lower carbon footprint.</p><div class="bar"><i style="--w:74%"></i></div></article>
+    </div>
+
+    <div class="assistant reveal">
+      <div class="a-head"><span class="dot"></span> Ask DUTCO AI <small class="mono">demo</small></div>
+      <div class="a-body" id="chat"></div>
+      <div class="a-prompts" id="prompts">
+        <button>What does Dutco do?</button>
+        <button>How do you use AI in construction?</button>
+        <button>Where are you located?</button>
+        <button>Tell me about sustainability</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Global -->
+<section class="section dark" id="presence">
+  <div class="wrap">
+    <p class="eyebrow mono reveal">/04 — Global presence</p>
+    <h2 class="reveal">Headquartered in Dubai. <em>Connected</em> worldwide.</h2>
+    <div class="globe-wrap reveal">
+      <canvas id="globe"></canvas>
+      <ul class="cities" id="cities"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- Philosophy -->
+<section class="section" id="philosophy">
+  <div class="wrap">
+    <p class="eyebrow mono reveal">/05 — Philosophy</p>
+    <h2 class="reveal">Three pillars. <em>Zero</em> compromise.</h2>
+    <div class="pillars">
+      <div class="pillar reveal"><span class="num">01</span><h4>Quality</h4><p>ISO-certified processes and AI-assisted inspection on every delivery.</p></div>
+      <div class="pillar reveal"><span class="num">02</span><h4>Best Practice</h4><p>Global standards, continuously benchmarked against live operational data.</p></div>
+      <div class="pillar reveal"><span class="num">03</span><h4>Social Responsibility</h4><p>Health, safety and the environment — measured, reported and improved.</p></div>
+    </div>
+    <blockquote class="quote reveal">
+      “Steady growth, and unwavering confidence in the future of the UAE.”
+      <cite>— Chairman's message</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section dark" id="contact">
+  <div class="wrap contact">
+    <div class="reveal">
+      <p class="eyebrow mono">/06 — Contact</p>
+      <h2>Let's build what's <em>next</em>.</h2>
+      <p class="sub">Tell us about your project and our team will respond within one business day.</p>
+      <p class="mono info">+971 4 260 1111<br>Dubai, United Arab Emirates</p>
+    </div>
+    <form class="form reveal" id="form">
+      <label><input required placeholder=" "><span>Full name</span></label>
+      <label><input type="email" required placeholder=" "><span>Email</span></label>
+      <label><textarea rows="4" required placeholder=" "></textarea><span>How can we help?</span></label>
+      <button class="btn" type="submit"><b>Send message</b> <span>→</span></button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div><a href="#home" class="brand"><span class="brand-mark"></span>DUTCO</a><p>Dutco Group of Companies · est. 1947</p></div>
+    <div><h5>Quick links</h5><a href="#about">About</a><a href="#presence">Global Presence</a><a href="#philosophy">Philosophy</a></div>
+    <div><h5>Divisions</h5><a href="#businesses">Construction</a><a href="#businesses">Hospitality</a><a href="#businesses">Oil &amp; Gas</a><a href="#businesses">Trading</a></div>
+    <div><a href="#home" class="btn btn-ghost btn-sm">Back to top ↑</a></div>
+  </div>
+  <p class="copy">© 2026 Dutco Group of Companies. Concept redesign — not the official website.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

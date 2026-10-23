@@ -1,0 +1,18 @@
+services:
+  app:
+    image: node:20-alpine
+    working_dir: /app
+    volumes: [".:/app"]
+    command: sh -c "npm ci && npm run build && npx vite preview --host 0.0.0.0 --port 5173"
+    ports: ["5173:5173"]
+  api:
+    image: node:20-alpine
+    working_dir: /app
+    volumes: [".:/app"]
+    command: sh -c "npm i nodemailer --no-save && node server/index.mjs"
+    env_file: [.env]
+    environment: { SMTP_HOST: mailpit, SMTP_PORT: "1025" }
+    ports: ["8787:8787"]
+  mailpit:
+    image: axllent/mailpit:v1.20
+    ports: ["8025:8025", "1025:1025"]

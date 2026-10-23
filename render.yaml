@@ -1,0 +1,25 @@
+# Render Blueprint — the optional Node service (Claude classification + digest email).
+# The web app itself is a static Vite build hosted on Vercel; it works without this service.
+services:
+  - type: web
+    name: dutco-control-tower-api
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci --omit=dev
+    startCommand: node server/index.mjs
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: ANTHROPIC_API_KEY
+        sync: false          # paste in the Render dashboard (never commit it)
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: ALLOWED_ORIGIN
+        sync: false          # your Vercel URL, e.g. https://dutco-control-tower.vercel.app
+      - key: SMTP_HOST
+        sync: false          # optional: a real SMTP host to enable the digest email
+      - key: SMTP_PORT
+        value: "587"
