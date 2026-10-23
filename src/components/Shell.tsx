@@ -79,12 +79,6 @@ export function Shell({ children }: { children: ReactNode }) {
       </div>
       {nav}
       <div className="mt-auto px-3">
-        {!collapsed && (
-          <div className="rounded-lg p-3 mb-2 text-[11.5px] leading-snug" style={{ background: 'rgba(255,255,255,.06)', color: 'rgba(226,236,248,.7)' }}>
-            <div className="flex items-center gap-1.5 font-medium text-white mb-1"><Bot size={13} />{settings.aiOutage ? 'AI offline (degraded)' : 'AI: simulated classifier'}</div>
-            Stage 1 POC · synthetic mailbox · Dutco sample workbook
-          </div>
-        )}
         <button onClick={() => setCollapsed(!collapsed)} className="hidden lg:flex items-center gap-2 h-8 w-full rounded-md px-2 text-[12px]" style={{ color: 'rgba(226,236,248,.6)' }} aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}>
           {collapsed ? <ChevronsRight size={16} className="mx-auto" /> : <><ChevronsLeft size={16} />Collapse</>}
         </button>
