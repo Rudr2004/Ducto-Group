@@ -1,7 +1,7 @@
 import { useEffect, useId, useMemo, useRef, useState, type FormEvent } from 'react';
 import { Send, X } from 'lucide-react';
 import { useStore } from '@/store/store';
-import { useViews, go, drill, type Route } from '@/lib/hooks';
+import { useViews, go, drill, canOpen, type Route } from '@/lib/hooks';
 import { OWNERS } from '@/domain/milestones';
 import { cx } from './ui';
 
@@ -46,6 +46,7 @@ export function AiAssistant() {
   const booted = useStore((s) => s.booted);
   const events = useStore((s) => s.events);
   const settings = useStore((s) => s.settings);
+  const role = useStore((s) => s.role);
   const views = useViews();
   const [phase, setPhase] = useState<'wait' | 'enter' | 'blink' | 'intro' | 'docked'>('wait');
   const [played, setPlayed] = useState(false);
@@ -89,7 +90,7 @@ export function AiAssistant() {
       return { text: `Most days are lost with ${byOwner[0].o} (${byOwner[0].d}d), then ${byOwner[1].o} (${byOwner[1].d}d) and ${byOwner[2].o} (${byOwner[2].d}d).`, route: 'dashboard' };
     if (/exception|queue|review/.test(t)) {
       const n = events.filter((e) => e.decision === 'QUEUED').length;
-      return { text: n ? `${n} email${n > 1 ? 's' : ''} are waiting in the exception queue for an admin decision.` : 'The exception queue is empty — nothing needs review right now.', route: 'exceptions' };
+      return { text: n ? `${n} email${n > 1 ? 's' : ''} are waiting in the exception queue for an admin decision.` : 'The exception queue is empty — nothing needs review right now.', route: canOpen(role, 'exceptions') ? 'exceptions' : undefined };
     }
     if (/award|won|complete/.test(t)) return { text: `${awarded} of ${live.length} packages are awarded; ${live.length - awarded} are still in procurement.`, route: 'schedule', run: () => drill({ status: 'Awarded' }) };
     if (/ai|classif|model|how.*work/.test(t)) return { text: settings.aiOutage ? 'The AI is currently offline, so emails needing AI confirmation go to the exception queue.' : 'A simulated classifier reads each email and only commits a date when both the system evidence and the AI agree. Anything doubtful is queued for an admin.' };

@@ -52,3 +52,6 @@ desktop.ini
 # Excel lock / temp files (the sample workbook in sample_data/ must stay tracked: it is bundled into the build)
 ~$*
 *.tmp
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat

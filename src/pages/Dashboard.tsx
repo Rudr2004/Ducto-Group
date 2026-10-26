@@ -12,7 +12,8 @@ import { go } from '@/lib/hooks';
 
 export default function Dashboard() {
   const all = useViews();
-  const { asOf, packages, records, rebaselines, settings, events, openPkg } = useStore();
+  const { asOf, packages, records, rebaselines, settings, events, openPkg, role } = useStore();
+  const isAdmin = role === 'admin';
   const [mgr, setMgr] = useState('');
   const [cat, setCat] = useState('');
   const [by, setBy] = useState<'manager' | 'milestone' | 'stage'>('manager');
@@ -77,7 +78,7 @@ export default function Dashboard() {
     { label: 'Overdue milestones', value: `${overdue}`, sub: 'next open step past its plan', tone: overdue ? 'var(--over)' : undefined, onClick: () => drill({ cellStatus: 'OVERDUE' }) },
     { label: 'Avg days late per step', value: avgLate.toFixed(1), sub: `${lateSteps.length} steps over SLA`, onClick: () => drill({ cellStatus: 'DONE_LATE' }) },
     { label: 'Awards slipping', value: `${slipping}`, sub: `forecast > ${settings.slipAlertDays}d past target`, tone: slipping ? 'var(--late)' : undefined, onClick: () => drill({ health: 'Delayed' }) },
-    { label: 'Open exceptions', value: `${openExc}`, sub: 'admin queue only', onClick: () => go('exceptions') },
+    { label: 'Open exceptions', value: `${openExc}`, sub: 'admin queue only', onClick: isAdmin ? () => go('exceptions') : undefined },
     { label: 'System-captured', value: `${totalActuals ? Math.round((sysActuals / totalActuals) * 100) : 0}%`, sub: `${sysActuals} of ${totalActuals} actual dates`, tone: 'var(--teal)', onClick: () => drill({ demoOnly: true }) },
   ];
 
@@ -91,7 +92,7 @@ export default function Dashboard() {
           <button className="btn" onClick={() => window.print()}><Printer size={15} />PDF snapshot</button>
         </>} />
 
-      {sysActuals === 0 && (
+      {sysActuals === 0 && isAdmin && (
         <button onClick={() => go('ingest')} className="w-full card flex items-center gap-3 p-3.5 mb-4 text-left hover:border-[var(--teal)] transition-colors" style={{ background: 'var(--teal-soft)', borderColor: 'transparent' }}>
           <Sparkles size={18} style={{ color: 'var(--teal)' }} />
           <span className="flex-1 text-[13.5px]"><b>Every date on this page was typed by hand.</b> Process the demo mailbox to watch the Control Tower capture them from email, SharePoint, DocuSign and OBT evidence instead.</span>
@@ -105,7 +106,7 @@ export default function Dashboard() {
 
       <div className="card grid grid-cols-2 md:grid-cols-4 xl:grid-cols-7 mb-4 overflow-hidden">
         {kpis.map((k, i) => (
-          <button key={k.label} onClick={k.onClick} className={cx('kpi text-left p-4', i > 0 && 'xl:border-l')} style={{ borderColor: 'var(--line)', borderTop: '1px solid var(--line)', marginTop: -1 }}>
+          <button key={k.label} onClick={k.onClick} disabled={!k.onClick} className={cx('kpi text-left p-4', i > 0 && 'xl:border-l', !k.onClick && 'cursor-default')} style={{ borderColor: 'var(--line)', borderTop: '1px solid var(--line)', marginTop: -1 }}>
             <div className="label">{k.label}</div>
             <div className="flex items-baseline gap-1.5 mt-1">
               <span className="text-[30px] font-semibold num leading-none tracking-[-0.02em]" style={{ color: k.tone }}><CountUp text={k.value} /></span>

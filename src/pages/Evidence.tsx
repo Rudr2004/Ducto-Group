@@ -11,7 +11,7 @@ import { go } from '@/lib/hooks';
 const DEC = { AUTO_COMMITTED: ['Committed', 'var(--ok)'], QUEUED: ['Queued', 'var(--soon)'], IGNORED: ['Ignored', 'var(--up)'], DUPLICATE: ['Duplicate', 'var(--up)'], ERROR: ['Error', 'var(--over)'] } as const;
 
 export default function Evidence() {
-  const { events, docs, packages } = useStore();
+  const { events, docs, packages, role } = useStore();
   const [d, setD] = useState<'all' | keyof typeof DEC>('all');
   const [q, setQ] = useState('');
   const [view, setView] = useState<EvidenceEvent | null>(null);
@@ -24,7 +24,7 @@ export default function Evidence() {
   return (
     <div>
       <PageHeader title="Evidence log" desc="Every document the Control Tower read, what it decided, and why." />
-      {events.length === 0 ? <div className="card"><Empty icon={<FileSearch size={20} />} title="No documents ingested yet" body="Process the demo mailbox to fill this log." action={<button className="btn btn-primary" onClick={() => go('ingest')}>Go to Ingest</button>} /></div> : <>
+      {events.length === 0 ? <div className="card"><Empty icon={<FileSearch size={20} />} title="No documents ingested yet" body={role === 'admin' ? 'Process the demo mailbox to fill this log.' : 'The administrator has not processed any documents yet.'} action={role === 'admin' ? <button className="btn btn-primary" onClick={() => go('ingest')}>Go to Ingest</button> : undefined} /></div> : <>
         <div className="flex flex-wrap items-center gap-2 mb-3">
           <Segmented label="Decision" value={d} onChange={setD} options={[{ value: 'all', label: `All ${events.length}` }, ...Object.entries(DEC).map(([k, [l]]) => ({ value: k as keyof typeof DEC, label: `${l} ${events.filter((e) => e.decision === k).length}` }))]} />
           <label className="flex items-center gap-2 input ml-auto w-full sm:w-72"><Search size={15} style={{ color: 'var(--faint)' }} /><input className="bg-transparent outline-none flex-1" placeholder="Subject, sender, package" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Search evidence" /></label>

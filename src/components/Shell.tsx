@@ -4,12 +4,12 @@ import {
   Search, Menu, CalendarDays, Bot, X, ChevronsLeft, ChevronsRight, Play, UserRound,
 } from 'lucide-react';
 import { useStore, PEOPLE, REPORTING_WEEK, TODAY } from '@/store/store';
-import { useAlerts, useRoute, type Route } from '@/lib/hooks';
+import { canOpen, useAlerts, useRoute, type Route } from '@/lib/hooks';
 import type { Role } from '@/lib/audit';
 import { cx } from './ui';
 import { fmt } from '@/domain/dates';
 
-const NAV: { r: Route; label: string; Icon: typeof Inbox; admin?: boolean }[] = [
+const NAV: { r: Route; label: string; Icon: typeof Inbox }[] = [
   { r: 'dashboard', label: 'Dashboard', Icon: LayoutDashboard },
   { r: 'schedule', label: 'Schedule', Icon: Table2 },
   { r: 'exceptions', label: 'Exceptions', Icon: Inbox },
@@ -19,7 +19,7 @@ const NAV: { r: Route; label: string; Icon: typeof Inbox; admin?: boolean }[] = 
   { r: 'accuracy', label: 'Accuracy', Icon: Target },
   { r: 'audit', label: 'Audit log', Icon: ScrollText },
   { r: 'settings', label: 'Settings', Icon: Settings },
-  { r: 'ingest', label: 'Ingest', Icon: UploadCloud, admin: true },
+  { r: 'ingest', label: 'Ingest', Icon: UploadCloud },
 ];
 
 function Mark() {
@@ -55,7 +55,7 @@ export function Shell({ children }: { children: ReactNode }) {
 
   const nav = (
     <nav className="flex flex-col gap-0.5 px-2" aria-label="Main">
-      {NAV.filter((n) => !n.admin || role === 'admin').map((n) => {
+      {NAV.filter((n) => canOpen(role, n.r)).map((n) => {
         const active = route === n.r;
         const badge = n.r === 'exceptions' ? exc : n.r === 'alerts' ? unread : 0;
         return (
@@ -148,6 +148,7 @@ function Palette({ onClose }: { onClose: () => void }) {
   const packages = useStore((s) => s.packages);
   const openPkg = useStore((s) => s.openPkg);
   const setRole = useStore((s) => s.setRole);
+  const role = useStore((s) => s.role);
   const processAll = useStore((s) => s.processAll);
   const [, go] = useRoute();
   const [q, setQ] = useState('');
@@ -156,18 +157,20 @@ function Palette({ onClose }: { onClose: () => void }) {
   useEffect(() => ref.current?.focus(), []);
   const items = useMemo(() => {
     const acts: { label: string; hint: string; run: () => void }[] = [
-      { label: 'Process mailbox (run ingestion)', hint: 'Action', run: () => { go('ingest'); processAll().catch(() => {}); } },
-      { label: 'Open exception queue', hint: 'Go to', run: () => go('exceptions') },
+      ...(role === 'admin' ? [
+        { label: 'Process mailbox (run ingestion)', hint: 'Action', run: () => { go('ingest'); processAll().catch(() => {}); } },
+        { label: 'Open exception queue', hint: 'Go to', run: () => go('exceptions') },
+      ] : []),
       { label: 'Switch role: Admin', hint: 'Role', run: () => setRole('admin') },
       { label: 'Switch role: Package Manager', hint: 'Role', run: () => setRole('manager') },
       { label: 'Switch role: Leadership', hint: 'Role', run: () => setRole('leadership') },
-      ...(['dashboard', 'schedule', 'alerts', 'evidence', 'quality', 'accuracy', 'audit', 'settings'] as Route[]).map((r) => ({ label: `Go to ${r}`, hint: 'Go to', run: () => go(r) })),
+      ...(['dashboard', 'schedule', 'alerts', 'evidence', 'quality', 'accuracy', 'audit', 'settings'] as Route[]).filter((r) => canOpen(role, r)).map((r) => ({ label: `Go to ${r}`, hint: 'Go to', run: () => go(r) })),
     ];
     const pk = packages.map((p) => ({ label: p.name, hint: `${p.ref} · Sl ${p.slNo}`, run: () => { go('schedule'); openPkg(p.id); } }));
     const all = [...pk, ...acts];
     const t = q.toLowerCase().trim();
     return (t ? all.filter((x) => x.label.toLowerCase().includes(t) || x.hint.toLowerCase().includes(t)) : [...acts.slice(0, 5), ...pk.slice(0, 6)]).slice(0, 10);
-  }, [q, packages, go, openPkg, setRole, processAll]);
+  }, [q, packages, go, openPkg, setRole, processAll, role]);
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center pt-[12vh] px-4" role="dialog" aria-modal="true" aria-label="Command palette">
       <div className="absolute inset-0" style={{ background: 'rgba(8,19,31,.45)' }} onClick={onClose} />

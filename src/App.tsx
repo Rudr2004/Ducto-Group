@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Loader2, TriangleAlert } from 'lucide-react';
 import { useStore } from '@/store/store';
-import { useRoute } from '@/lib/hooks';
+import { canOpen, useRoute } from '@/lib/hooks';
 import { Shell } from '@/components/Shell';
 import { Toaster } from '@/components/ui';
 import { AiAssistant } from '@/components/AiAssistant';
@@ -20,10 +20,13 @@ import Ingest from '@/pages/Ingest';
 const PAGES = { dashboard: Dashboard, schedule: Schedule, exceptions: Exceptions, alerts: Alerts, evidence: Evidence, quality: DataQuality, accuracy: Accuracy, audit: Audit, settings: Settings, ingest: Ingest };
 
 export default function App() {
-  const { booted, bootError, boot } = useStore();
-  const [route] = useRoute();
+  const { booted, bootError, boot, role } = useStore();
+  const [route, goTo] = useRoute();
   useEffect(() => { boot(); }, [boot]);
-  const Page = PAGES[route];
+  const allowed = canOpen(role, route);
+  // switching to a role that cannot see this screen (or opening its URL directly) lands on the dashboard
+  useEffect(() => { if (!allowed) goTo('dashboard'); }, [allowed]); // eslint-disable-line react-hooks/exhaustive-deps
+  const Page = PAGES[allowed ? route : 'dashboard'];
   return (
     <>
       <Shell>
