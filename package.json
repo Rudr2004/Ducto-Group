@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "build:single": "tsc --noEmit && vite build --mode single",
+    "dev": "node init && vite",
+    "build": "node init && tsc --noEmit && vite build",
+    "build:single": "node init && tsc --noEmit && vite build --mode single",
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",

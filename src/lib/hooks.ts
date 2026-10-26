@@ -5,6 +5,7 @@ import { diffDays, type ISODate } from '@/domain/dates';
 import { M, type MilestoneKey, type PackageStatus } from '@/domain/milestones';
 import type { Health, PackageView } from '@/domain/types';
 import { useStore } from '@/store/store';
+import type { Role } from '@/lib/audit';
 
 export function useViews(): PackageView[] {
   const packages = useStore((s) => s.packages);
@@ -21,6 +22,9 @@ export function useViews(): PackageView[] {
 
 export const ROUTES = ['dashboard', 'schedule', 'exceptions', 'alerts', 'evidence', 'quality', 'accuracy', 'audit', 'settings', 'ingest'] as const;
 export type Route = (typeof ROUTES)[number];
+/** Screens only the administrator may open. Hidden from the sidebar and palette, and refused when reached by URL. */
+export const ADMIN_ONLY_ROUTES: readonly Route[] = ['exceptions', 'ingest', 'settings'];
+export const canOpen = (role: Role, route: Route) => role === 'admin' || !ADMIN_ONLY_ROUTES.includes(route);
 const read = (): Route => { const h = window.location.hash.replace('#', '') as Route; return ROUTES.includes(h) ? h : 'dashboard'; };
 export function useRoute(): [Route, (r: Route) => void] {
   const [r, setR] = useState<Route>(read);
