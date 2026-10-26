@@ -17,7 +17,7 @@ const PRESETS: Record<string, Stage[]> = { all: ['A', 'B', 'C', 'D'], ab: ['A', 
 export default function Schedule() {
   const views = useViews();
   const { f, set, clear } = useFilter();
-  const { asOf, events, docs, openPkg, packages } = useStore();
+  const { asOf, events, docs, openPkg, packages, role } = useStore();
   const [mode, setMode] = useState<Mode>('pva');
   const [dense, setDense] = useState(false);
   const [group, setGroup] = useState<'none' | 'category' | 'manager' | 'status'>('none');
@@ -52,7 +52,7 @@ export default function Schedule() {
   const narrow = typeof window !== 'undefined' && window.innerWidth < 768;
   const left = narrow ? [36, 150, 150] : [48, 248, 172]; // Sl, Package, Status (Status sticky only on wide screens)
 
-  if (!packages.length) return <Empty title="Import a schedule to begin" body="Drop the Dutco project tracker (.xlsm or .xlsx) on the Ingest page. Headers are found by their text, so other project files work too." action={<button className="btn btn-primary" onClick={() => go('ingest')}><Upload size={15} />Go to Ingest</button>} />;
+  if (!packages.length) return <Empty title="Import a schedule to begin" body={role === 'admin' ? 'Drop the Dutco project tracker (.xlsm or .xlsx) on the Ingest page. Headers are found by their text, so other project files work too.' : 'The administrator has not imported a schedule yet.'} action={role === 'admin' ? <button className="btn btn-primary" onClick={() => go('ingest')}><Upload size={15} />Go to Ingest</button> : undefined} />;
 
   return (
     <div>
